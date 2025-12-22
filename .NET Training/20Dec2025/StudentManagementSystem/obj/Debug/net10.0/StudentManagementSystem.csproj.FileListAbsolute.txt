@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\StudentManagementSystem\bin\Debug\net10.0\StudentManagementSystem.exe
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\StudentManagementSystem\bin\Debug\net10.0\StudentManagementSystem.deps.json
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\StudentManagementSystem\bin\Debug\net10.0\StudentManagementSystem.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\StudentManagementSystem\bin\Debug\net10.0\StudentManagementSystem.dll
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\StudentManagementSystem\bin\Debug\net10.0\StudentManagementSystem.pdb
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\StudentManagementSystem\obj\Debug\net10.0\StudentManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\StudentManagementSystem\obj\Debug\net10.0\StudentManagementSystem.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\StudentManagementSystem\obj\Debug\net10.0\StudentManagementSystem.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\StudentManagementSystem\obj\Debug\net10.0\StudentManagementSystem.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\StudentManagementSystem\obj\Debug\net10.0\StudentManagementSystem.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\StudentManagementSystem\obj\Debug\net10.0\StudentManagementSystem.dll
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\StudentManagementSystem\obj\Debug\net10.0\refint\StudentManagementSystem.dll
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\StudentManagementSystem\obj\Debug\net10.0\StudentManagementSystem.pdb
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\StudentManagementSystem\obj\Debug\net10.0\StudentManagementSystem.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\StudentManagementSystem\obj\Debug\net10.0\ref\StudentManagementSystem.dll

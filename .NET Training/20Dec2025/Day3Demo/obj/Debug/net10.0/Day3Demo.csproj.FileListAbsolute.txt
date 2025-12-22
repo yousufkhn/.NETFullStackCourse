@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\Day3Demo\bin\Debug\net10.0\Day3Demo.exe
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\Day3Demo\bin\Debug\net10.0\Day3Demo.deps.json
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\Day3Demo\bin\Debug\net10.0\Day3Demo.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\Day3Demo\bin\Debug\net10.0\Day3Demo.dll
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\Day3Demo\bin\Debug\net10.0\Day3Demo.pdb
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\Day3Demo\obj\Debug\net10.0\Day3Demo.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\Day3Demo\obj\Debug\net10.0\Day3Demo.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\Day3Demo\obj\Debug\net10.0\Day3Demo.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\Day3Demo\obj\Debug\net10.0\Day3Demo.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\Day3Demo\obj\Debug\net10.0\Day3Demo.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\Day3Demo\obj\Debug\net10.0\Day3Demo.dll
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\Day3Demo\obj\Debug\net10.0\refint\Day3Demo.dll
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\Day3Demo\obj\Debug\net10.0\Day3Demo.pdb
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\Day3Demo\obj\Debug\net10.0\Day3Demo.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\20Dec2025\Day3Demo\obj\Debug\net10.0\ref\Day3Demo.dll
