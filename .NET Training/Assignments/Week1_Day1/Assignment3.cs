@@ -15,11 +15,17 @@ class Assignment3
         Sunday
     }
 
-    public static void DisplayMenu(Days day)
+    public static void DisplayMenu()
     {
-        switch (day)
+        System.Console.Write("Enter day number (0= Monday ... 6 = Sunday) : ");
+        int input = Int32.Parse(Console.ReadLine());
+
+        if (input >= 0 && input <= 6)
         {
-            case Days.Monday:
+            Days day = (Days)input;
+            switch (day)
+            {
+                case Days.Monday:
                     Console.WriteLine("Monday Menu:");
                     Console.WriteLine("Breakfast: Idli & Sambar");
                     Console.WriteLine("Lunch: Veg Thali");
@@ -71,7 +77,14 @@ class Assignment3
                 default:
                     Console.WriteLine("Invalid day");
                     break;
-                
+
+            }
         }
+        else
+        {
+            System.Console.WriteLine("Invalid day number");
+        }
+
+
     }
 }

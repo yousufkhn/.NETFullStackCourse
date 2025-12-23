@@ -1,4 +1,6 @@
 ﻿using Assignment7NameSpace;
+using Assignment8NameSpace;
+using Assignment9NameSpace;
 using Assignments;
 // Assignment 1: Array
 // We need to bubble sort elements in ascending order
@@ -8,7 +10,7 @@ using Assignments;
 // Assignment2.AddArr();
 
 // Assignment 3
-// Assignment3.DisplayMenu(Assignment3.Days.Monday);
+// Assignment3.DisplayMenu();
 
 //Assignment 4
 // Assignment4.ManageEmployees();
@@ -20,4 +22,10 @@ using Assignments;
 // Assignment6.GetFeedback();
 
 // Assignment 7
-Assignment7.RunAssignment7();
+// Assignment7.RunAssignment7();
+
+// Assignment 8
+// Assignment8.Assignment8Main();
+
+// Assignment 9
+// Assignment9.Assignment9Main();
