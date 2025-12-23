@@ -1,0 +1,75 @@
+Sam's brother is opening a cake shop named Cake World and he wants an application to book cake orders online. The application will verify if the cake flavour is correct and also check if the cake quantity is greater than 0. If not, it will display a message to the user, that the user should need to enter order details correctly. The application will also calculate the total price of the cake order based on the selected cake flavour and quantity.
+Help him to create an application using your C# coding skills.
+Functionalities:
+In class Cake, implement the below given properties and methods.
+    Data Type
+   Property Name
+    string
+  Flavour
+    int
+  QuantityInKg
+    double
+  PricePerKg
+    Method
+   Description
+   public bool CakeOrder()
+ This method is used to validate the cake flavour and quantity.
+If the cake flavour is Chocolate or Red Velvet or Vanilla, then return true. Otherwise, throw an custom exception InvalidFlavourException with the message "Flavour not available. Please select the available flavour".
+If the cake quantity is greater than 0, then return true. Otherwise, throw an user defined exception with the message "Quantity must be greater than zero".
+   public double CalculatePrice()
+ This method is used to calculate the discounted price of the cake based on the flavour and return it.
+The calculation procedure is given below.
+ The custom exception class InvalidFlavourException should inherit the built-in Exception class.
+Formula :
+Total Price = Quantity In Kg * Price Per Kg
+Discounted Price = Total Price - (Total Price * Discount /100)
+    Flavour
+   Discount
+    Vanilla
+  3
+    Chocolate
+  5
+    Red Velvet
+  10
+  Note :  Flavour is case sensitive.
+In Program class - Main method,
+1.    Get the values from the user as per the Sample Input.
+2.    Call the methods accordingly and display the result as per the Sample Output.
+3.  Implement the try-catch block to handle the exceptions thrown by the CakeOrder method.
+Note:
+Keep the methods and classes as public.
+Please read the method rules clearly.
+Do not use Environment.Exit() to terminate the program.
+Do not change the given code template.
+Summary :
+Through creating this application, he has learned about custom exception classes and user defined exceptions in C#.
+Custom exception classes are exceptions that inherit from the Exception class and allow developers to create and throw their own exception types with specific error messages.
+User-defined exception is an exception that is created by the user or programmer to handle specific errors that are not handled by the built-in exceptions in C#.
+Sample Input 1:
+Enter the flavour
+Vanilla
+Enter the quantity in kg
+5
+Enter the price per kg
+250
+Sample Output 1:
+Cake order was successful
+Price after discount is 1212.5
+Sample Input 2:
+Enter the flavour
+Chocolate
+Enter the quantity in kg
+0
+Enter the price per kg
+350
+Sample Output 2:
+Quantity must be greater than zero
+Sample Input 3:
+Enter the flavour
+Lemon
+Enter the quantity in kg
+10
+Enter the price per kg
+150
+Sample Output 3:
+Flavour not available. Please select the available flavor
