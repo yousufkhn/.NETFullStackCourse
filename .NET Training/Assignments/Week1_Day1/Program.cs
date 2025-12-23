@@ -1,4 +1,5 @@
-﻿using Assignment7NameSpace;
+﻿using Assignment10NameSpace;
+using Assignment7NameSpace;
 using Assignment8NameSpace;
 using Assignment9NameSpace;
 using Assignments;
@@ -29,3 +30,6 @@ using Assignments;
 
 // Assignment 9
 // Assignment9.Assignment9Main();
+
+// Assignment10
+ TestShapes.Test();
