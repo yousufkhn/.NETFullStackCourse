@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\23Dec2025\ClassAssignment3\bin\Debug\net10.0\ClassAssignment3.exe
+D:\MyData\Capgemini\Training\.NET Training\23Dec2025\ClassAssignment3\bin\Debug\net10.0\ClassAssignment3.deps.json
+D:\MyData\Capgemini\Training\.NET Training\23Dec2025\ClassAssignment3\bin\Debug\net10.0\ClassAssignment3.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\23Dec2025\ClassAssignment3\bin\Debug\net10.0\ClassAssignment3.dll
+D:\MyData\Capgemini\Training\.NET Training\23Dec2025\ClassAssignment3\bin\Debug\net10.0\ClassAssignment3.pdb
+D:\MyData\Capgemini\Training\.NET Training\23Dec2025\ClassAssignment3\obj\Debug\net10.0\ClassAssignment3.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\23Dec2025\ClassAssignment3\obj\Debug\net10.0\ClassAssignment3.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\23Dec2025\ClassAssignment3\obj\Debug\net10.0\ClassAssignment3.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\23Dec2025\ClassAssignment3\obj\Debug\net10.0\ClassAssignment3.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\23Dec2025\ClassAssignment3\obj\Debug\net10.0\ClassAssignment3.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\23Dec2025\ClassAssignment3\obj\Debug\net10.0\ClassAssignment3.dll
+D:\MyData\Capgemini\Training\.NET Training\23Dec2025\ClassAssignment3\obj\Debug\net10.0\refint\ClassAssignment3.dll
+D:\MyData\Capgemini\Training\.NET Training\23Dec2025\ClassAssignment3\obj\Debug\net10.0\ClassAssignment3.pdb
+D:\MyData\Capgemini\Training\.NET Training\23Dec2025\ClassAssignment3\obj\Debug\net10.0\ClassAssignment3.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\23Dec2025\ClassAssignment3\obj\Debug\net10.0\ref\ClassAssignment3.dll

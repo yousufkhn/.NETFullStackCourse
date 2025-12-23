@@ -10,7 +10,7 @@ namespace ComputerAssignment
         public double DesktopPriceCalculation()
         {
             double price ;
-            price = (RamSize*200) + (HardDiskSize*1500) + (GraphicCard*2500) + (MonitorSize * 250) + (PowerSupplyVolt * 20);
+            price = (RamSize*RamPrice) + (HardDiskSize*HardDiskPrice) + (GraphicCard*GraphicCardPrice) + (MonitorSize * 250) + (PowerSupplyVolt * 20);
             if(Processor == "i3")
             {
                 price+=1500;
