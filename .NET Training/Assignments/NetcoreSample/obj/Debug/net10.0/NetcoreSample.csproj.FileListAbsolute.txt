@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NetcoreSample\bin\Debug\net10.0\NetcoreSample.exe
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NetcoreSample\bin\Debug\net10.0\NetcoreSample.deps.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NetcoreSample\bin\Debug\net10.0\NetcoreSample.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NetcoreSample\bin\Debug\net10.0\NetcoreSample.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NetcoreSample\bin\Debug\net10.0\NetcoreSample.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NetcoreSample\obj\Debug\net10.0\NetcoreSample.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NetcoreSample\obj\Debug\net10.0\NetcoreSample.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NetcoreSample\obj\Debug\net10.0\NetcoreSample.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NetcoreSample\obj\Debug\net10.0\NetcoreSample.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NetcoreSample\obj\Debug\net10.0\NetcoreSample.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NetcoreSample\obj\Debug\net10.0\NetcoreSample.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NetcoreSample\obj\Debug\net10.0\refint\NetcoreSample.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NetcoreSample\obj\Debug\net10.0\NetcoreSample.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NetcoreSample\obj\Debug\net10.0\NetcoreSample.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NetcoreSample\obj\Debug\net10.0\ref\NetcoreSample.dll

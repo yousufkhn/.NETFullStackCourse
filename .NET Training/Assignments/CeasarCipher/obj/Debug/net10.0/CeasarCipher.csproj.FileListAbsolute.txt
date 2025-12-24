@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\Assignments\CeasarCipher\bin\Debug\net10.0\CeasarCipher.exe
+D:\MyData\Capgemini\Training\.NET Training\Assignments\CeasarCipher\bin\Debug\net10.0\CeasarCipher.deps.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\CeasarCipher\bin\Debug\net10.0\CeasarCipher.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\CeasarCipher\bin\Debug\net10.0\CeasarCipher.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\CeasarCipher\bin\Debug\net10.0\CeasarCipher.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assignments\CeasarCipher\obj\Debug\net10.0\CeasarCipher.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\Assignments\CeasarCipher\obj\Debug\net10.0\CeasarCipher.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\CeasarCipher\obj\Debug\net10.0\CeasarCipher.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\Assignments\CeasarCipher\obj\Debug\net10.0\CeasarCipher.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\CeasarCipher\obj\Debug\net10.0\CeasarCipher.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\CeasarCipher\obj\Debug\net10.0\CeasarCipher.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\CeasarCipher\obj\Debug\net10.0\refint\CeasarCipher.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\CeasarCipher\obj\Debug\net10.0\CeasarCipher.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assignments\CeasarCipher\obj\Debug\net10.0\CeasarCipher.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\CeasarCipher\obj\Debug\net10.0\ref\CeasarCipher.dll

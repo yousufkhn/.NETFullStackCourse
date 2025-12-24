@@ -54,7 +54,7 @@ Enter the price per kg
 250
 Sample Output 1:
 Cake order was successful
-Price after discount is 1212.5
+Price after discount is 121nw2.5
 Sample Input 2:
 Enter the flavour
 Chocolate
