@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\MediSure\bin\Debug\net10.0\MediSure.exe
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\MediSure\bin\Debug\net10.0\MediSure.deps.json
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\MediSure\bin\Debug\net10.0\MediSure.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\MediSure\bin\Debug\net10.0\MediSure.dll
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\MediSure\bin\Debug\net10.0\MediSure.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\MediSure\obj\Debug\net10.0\MediSure.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\MediSure\obj\Debug\net10.0\MediSure.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\MediSure\obj\Debug\net10.0\MediSure.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\MediSure\obj\Debug\net10.0\MediSure.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\MediSure\obj\Debug\net10.0\MediSure.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\MediSure\obj\Debug\net10.0\MediSure.dll
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\MediSure\obj\Debug\net10.0\refint\MediSure.dll
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\MediSure\obj\Debug\net10.0\MediSure.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\MediSure\obj\Debug\net10.0\MediSure.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\MediSure\obj\Debug\net10.0\ref\MediSure.dll
