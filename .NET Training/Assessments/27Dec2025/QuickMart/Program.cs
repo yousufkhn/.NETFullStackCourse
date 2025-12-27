@@ -4,8 +4,8 @@ namespace QuickMart
 {
     public class Program
     {
-        static SaleTransaction LastTransaction = null;
-        static bool HasLastTransaction = false;
+        static SaleTransaction lastTransaction = null;
+        static bool hasLastTransaction = false;
         static bool isApplicationRunning = true;
 
         static void CreateNewTransaction()
@@ -64,24 +64,24 @@ namespace QuickMart
 
 
             saleTransactionObj.ComputeProfitLoss();  
-            HasLastTransaction = true;
-            LastTransaction = saleTransactionObj;
+            hasLastTransaction = true;
+            lastTransaction = saleTransactionObj;
         }
 
         static void ViewLastTransaction()
         {
-            if (HasLastTransaction)
+            if (hasLastTransaction)
             {
                 System.Console.WriteLine("--------Last Transaction---------");
-                System.Console.WriteLine($"InvoiceNO : {LastTransaction.InvoiceNo}");
-                System.Console.WriteLine($"Customer : {LastTransaction.CustomerName}");
-                System.Console.WriteLine($"Item : {LastTransaction.ItemName}");
-                System.Console.WriteLine($"Quantity : {LastTransaction.Quantity}");
-                System.Console.WriteLine($"Purchase Amount: {LastTransaction.PurchaseAmount} ");
-                System.Console.WriteLine($"Selling Amount : {LastTransaction.SellingAmount}");
-                System.Console.WriteLine($"Status : {LastTransaction.ProfitOrLossStatus}");
-                System.Console.WriteLine($"Profit loss amount : {LastTransaction.ProfitOrLossAmount}");
-                System.Console.WriteLine($"Profit Margin : {LastTransaction.ProfitMarginPercent}");
+                System.Console.WriteLine($"InvoiceNO : {lastTransaction.InvoiceNo}");
+                System.Console.WriteLine($"Customer : {lastTransaction.CustomerName}");
+                System.Console.WriteLine($"Item : {lastTransaction.ItemName}");
+                System.Console.WriteLine($"Quantity : {lastTransaction.Quantity}");
+                System.Console.WriteLine($"Purchase Amount: {lastTransaction.PurchaseAmount} ");
+                System.Console.WriteLine($"Selling Amount : {lastTransaction.SellingAmount}");
+                System.Console.WriteLine($"Status : {lastTransaction.ProfitOrLossStatus}");
+                System.Console.WriteLine($"Profit loss amount : {lastTransaction.ProfitOrLossAmount}");
+                System.Console.WriteLine($"Profit Margin : {lastTransaction.ProfitMarginPercent}");
             }
             else
             {
@@ -89,7 +89,7 @@ namespace QuickMart
             }
         }
 
-        public static void main(string[] args)
+        public static void Main(string[] args)
         {
             while (isApplicationRunning)
             {
@@ -116,7 +116,8 @@ namespace QuickMart
                         }
                     case 3:
                         {
-                            LastTransaction.ComputeProfitLoss();
+                            lastTransaction.ComputeProfitLoss();
+                            System.Console.WriteLine("Profit Loss Computed, View Last Transaction To see.");
                             break;
                         }
                     case 4:

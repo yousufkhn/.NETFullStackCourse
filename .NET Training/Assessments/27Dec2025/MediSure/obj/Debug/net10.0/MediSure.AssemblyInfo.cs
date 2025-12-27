@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediSure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db451124e1ab59bf999cf3b9d9253357a4aeb792")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3a3106550d3389143f6f9fa52394cacaa553e77")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediSure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediSure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

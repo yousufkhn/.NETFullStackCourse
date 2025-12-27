@@ -4,8 +4,8 @@ namespace MediSure
 {
     public class Program
     {
-        static bool HasLastBill = false;
-        static PatientBill? LastBill = null;
+        static bool hasLastBill = false;
+        static PatientBill? lastBill = null;
         static bool isApplicationRunning = true;
 
         static void CreateNewBill()
@@ -64,8 +64,8 @@ namespace MediSure
             patientBillObj.MedicineCharges = Math.Round(medicineCharges,2);
 
             ComputeBill(patientBillObj);
-            LastBill = patientBillObj;
-            HasLastBill = true;
+            lastBill = patientBillObj;
+            hasLastBill = true;
 
             System.Console.WriteLine("Bill Created Successfully");
             System.Console.WriteLine($"Gross Amount : {patientBillObj.GrossAmount}");
@@ -89,31 +89,31 @@ namespace MediSure
 
         static void ViewLastBill()
         {
-            if (!HasLastBill)
+            if (!hasLastBill)
             {
                 System.Console.WriteLine("No bill available. Please create a new bill first.");
             }
             else
             {
                 System.Console.WriteLine("The last bill : ");
-                System.Console.WriteLine($"Bill ID : {LastBill.BillID}");
-                System.Console.WriteLine($"Patient name : {LastBill.PatientName}");
-                System.Console.WriteLine($"Insured? : {LastBill.HasInsurance}");
-                System.Console.WriteLine($"Consulatation Fee : {Math.Round(LastBill.ConsultationFee,2)}");
-                System.Console.WriteLine($"Lab chargess : {Math.Round(LastBill.LabCharges,2)}");
-                System.Console.WriteLine($"Medicine charges : {Math.Round(LastBill.MedicineCharges,2)}");
-                System.Console.WriteLine($"Gross Amount {Math.Round(LastBill.GrossAmount,2)}");
-                System.Console.WriteLine($"Discount Amount : {Math.Round(LastBill.DiscountAmount,2)}");
-                System.Console.WriteLine($"Final Payabal : {Math.Round(LastBill.FinalPayable,2)}");
+                System.Console.WriteLine($"Bill ID : {lastBill.BillID}");
+                System.Console.WriteLine($"Patient name : {lastBill.PatientName}");
+                System.Console.WriteLine($"Insured? : {lastBill.HasInsurance}");
+                System.Console.WriteLine($"Consulatation Fee : {Math.Round(lastBill.ConsultationFee,2)}");
+                System.Console.WriteLine($"Lab chargess : {Math.Round(lastBill.LabCharges,2)}");
+                System.Console.WriteLine($"Medicine charges : {Math.Round(lastBill.MedicineCharges,2)}");
+                System.Console.WriteLine($"Gross Amount {Math.Round(lastBill.GrossAmount,2)}");
+                System.Console.WriteLine($"Discount Amount : {Math.Round(lastBill.DiscountAmount,2)}");
+                System.Console.WriteLine($"Final Payabal : {Math.Round(lastBill.FinalPayable,2)}");
             }
         }
 
         static void ClearLastBill()
         {
-            if (HasLastBill)
+            if (hasLastBill)
             {
-                LastBill = null;
-                HasLastBill = false;
+                lastBill = null;
+                hasLastBill = false;
                 System.Console.WriteLine("Last Bill Cleared");   
             }
             else
