@@ -10,6 +10,7 @@ public class SaleTransaction
     public decimal ProfitOrLossAmount { get; set; }
     public decimal ProfitMarginPercent { get; set; }
 
+    // updated the logic from the last question to shift the bl into the sale transaction
     public void ComputeProfitLoss()
     {
 
