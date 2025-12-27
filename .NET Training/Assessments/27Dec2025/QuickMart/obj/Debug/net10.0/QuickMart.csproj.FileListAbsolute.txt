@@ -1,0 +1,5 @@
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\QuickMart\obj\Debug\net10.0\QuickMart.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\QuickMart\obj\Debug\net10.0\QuickMart.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\QuickMart\obj\Debug\net10.0\QuickMart.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\QuickMart\obj\Debug\net10.0\QuickMart.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assessments\27Dec2025\QuickMart\obj\Debug\net10.0\QuickMart.sourcelink.json

@@ -9,4 +9,6 @@ class PatientBill
     public decimal GrossAmount { get; set; }
     public decimal DiscountAmount {get;set;}
     public decimal FinalPayable { get; set; }
+
+    // I have not done any Buiseness Logic here because it was mentioned to be a Entity Class
 }

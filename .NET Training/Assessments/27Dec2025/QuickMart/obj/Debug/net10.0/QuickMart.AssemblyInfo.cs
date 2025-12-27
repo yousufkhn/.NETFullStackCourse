@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuickMart")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a06e11ccb25e41855adbf834245821705e3ed54")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db451124e1ab59bf999cf3b9d9253357a4aeb792")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuickMart")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuickMart")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
