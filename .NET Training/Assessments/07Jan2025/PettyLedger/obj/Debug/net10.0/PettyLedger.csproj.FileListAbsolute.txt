@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\Assessments\07Jan2025\PettyLedger\bin\Debug\net10.0\PettyLedger.exe
+D:\MyData\Capgemini\Training\.NET Training\Assessments\07Jan2025\PettyLedger\bin\Debug\net10.0\PettyLedger.deps.json
+D:\MyData\Capgemini\Training\.NET Training\Assessments\07Jan2025\PettyLedger\bin\Debug\net10.0\PettyLedger.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\Assessments\07Jan2025\PettyLedger\bin\Debug\net10.0\PettyLedger.dll
+D:\MyData\Capgemini\Training\.NET Training\Assessments\07Jan2025\PettyLedger\bin\Debug\net10.0\PettyLedger.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assessments\07Jan2025\PettyLedger\obj\Debug\net10.0\PettyLedger.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\Assessments\07Jan2025\PettyLedger\obj\Debug\net10.0\PettyLedger.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assessments\07Jan2025\PettyLedger\obj\Debug\net10.0\PettyLedger.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\Assessments\07Jan2025\PettyLedger\obj\Debug\net10.0\PettyLedger.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assessments\07Jan2025\PettyLedger\obj\Debug\net10.0\PettyLedger.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\Assessments\07Jan2025\PettyLedger\obj\Debug\net10.0\PettyLedger.dll
+D:\MyData\Capgemini\Training\.NET Training\Assessments\07Jan2025\PettyLedger\obj\Debug\net10.0\refint\PettyLedger.dll
+D:\MyData\Capgemini\Training\.NET Training\Assessments\07Jan2025\PettyLedger\obj\Debug\net10.0\PettyLedger.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assessments\07Jan2025\PettyLedger\obj\Debug\net10.0\PettyLedger.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\Assessments\07Jan2025\PettyLedger\obj\Debug\net10.0\ref\PettyLedger.dll

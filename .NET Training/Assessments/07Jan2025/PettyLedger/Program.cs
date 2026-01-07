@@ -4,6 +4,7 @@ namespace PettyLedger
 {
     public class Program
     {
+        
         public static void Main(string[] args)
         {
             Ledger<IncomeTransaction> incomeLegr = new Ledger<IncomeTransaction>();
@@ -18,6 +19,11 @@ namespace PettyLedger
 
             expenseLegr.AddEntry(exTran1);
             expenseLegr.AddEntry(exTran2);
+
+            System.Console.WriteLine("Total spent " + expenseLegr.CalculateTotal());
+            System.Console.WriteLine("Total received " + incomeLegr.CalculateTotal());
+
+            
 
 
 
