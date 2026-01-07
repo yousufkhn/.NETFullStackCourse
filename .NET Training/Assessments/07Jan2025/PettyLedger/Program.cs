@@ -11,7 +11,8 @@ namespace PettyLedger
             System.Console.WriteLine("2. Add a Expense Transaction");
             System.Console.WriteLine("3. Get Total Income");
             System.Console.WriteLine("4. Get Total Expense");
-            System.Console.WriteLine("5. Exit");
+            System.Console.WriteLine("5. Calculate Balance");
+            System.Console.WriteLine("6. Exit");
 
             System.Console.Write("Enter the option you want to choose : ");
         }
@@ -36,7 +37,7 @@ namespace PettyLedger
             // System.Console.WriteLine("Total spent " + expenseLegr.CalculateTotal());
             // System.Console.WriteLine("Total received " + incomeLegr.CalculateTotal());
 
-            System.Console.WriteLine("Net Balance == " + incomeLegr.CalculateTotal() - expenseLegr.CalculateTotal());
+            // System.Console.WriteLine("Net Balance == " + incomeLegr.CalculateTotal() - expenseLegr.CalculateTotal());
 
             /// Test case ends here
             /// =================================================================================================
@@ -112,6 +113,11 @@ namespace PettyLedger
                             break;
                         }
                     case 5:
+                        {
+                            System.Console.WriteLine("Balance Amount: " + (incomeLegr.CalculateTotal() - expenseLegr.CalculateTotal()));
+                            break;
+                        }
+                    case 6:
                         {
                             return;
                         }
