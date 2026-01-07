@@ -7,21 +7,26 @@ namespace PettyLedger
         
         public static void Main(string[] args)
         {
-            Ledger<IncomeTransaction> incomeLegr = new Ledger<IncomeTransaction>();
+            /// This is the Test case mentioned in the Question
+            /// Test case starts here (uncomment to test)
+            
+            // Ledger<IncomeTransaction> incomeLegr = new Ledger<IncomeTransaction>();
 
-            IncomeTransaction inTran1 = new IncomeTransaction(101,new DateTime(2004,12,1),500,"Income","Salary");
-            incomeLegr.AddEntry(inTran1);
+            // IncomeTransaction inTran1 = new IncomeTransaction(101,new DateTime(2004,12,1),500,"Income","Salary");
+            // incomeLegr.AddEntry(inTran1);
 
-            Ledger<ExpenseTransaction> expenseLegr = new Ledger<ExpenseTransaction>();
+            // Ledger<ExpenseTransaction> expenseLegr = new Ledger<ExpenseTransaction>();
 
-            ExpenseTransaction exTran1 = new ExpenseTransaction(101,new DateTime(2004,12,1),20,"Stationery","Expense");
-            ExpenseTransaction exTran2 = new ExpenseTransaction(101,new DateTime(2004,12,1),15,"Team Snacks","Expense");
+            // ExpenseTransaction exTran1 = new ExpenseTransaction(101,new DateTime(2004,12,1),20,"Stationery","Expense");
+            // ExpenseTransaction exTran2 = new ExpenseTransaction(101,new DateTime(2004,12,1),15,"Team Snacks","Expense");
 
-            expenseLegr.AddEntry(exTran1);
-            expenseLegr.AddEntry(exTran2);
+            // expenseLegr.AddEntry(exTran1);
+            // expenseLegr.AddEntry(exTran2);
 
-            System.Console.WriteLine("Total spent " + expenseLegr.CalculateTotal());
-            System.Console.WriteLine("Total received " + incomeLegr.CalculateTotal());
+            // System.Console.WriteLine("Total spent " + expenseLegr.CalculateTotal());
+            // System.Console.WriteLine("Total received " + incomeLegr.CalculateTotal());
+
+            /// Test case ends here
 
             
 
