@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\RealEstateListing\bin\Debug\net10.0\RealEstateListing.exe
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\RealEstateListing\bin\Debug\net10.0\RealEstateListing.deps.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\RealEstateListing\bin\Debug\net10.0\RealEstateListing.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\RealEstateListing\bin\Debug\net10.0\RealEstateListing.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\RealEstateListing\bin\Debug\net10.0\RealEstateListing.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\RealEstateListing\obj\Debug\net10.0\RealEstateListing.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\RealEstateListing\obj\Debug\net10.0\RealEstateListing.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\RealEstateListing\obj\Debug\net10.0\RealEstateListing.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\RealEstateListing\obj\Debug\net10.0\RealEstateListing.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\RealEstateListing\obj\Debug\net10.0\RealEstateListing.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\RealEstateListing\obj\Debug\net10.0\RealEstateListing.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\RealEstateListing\obj\Debug\net10.0\refint\RealEstateListing.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\RealEstateListing\obj\Debug\net10.0\RealEstateListing.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\RealEstateListing\obj\Debug\net10.0\RealEstateListing.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\RealEstateListing\obj\Debug\net10.0\ref\RealEstateListing.dll

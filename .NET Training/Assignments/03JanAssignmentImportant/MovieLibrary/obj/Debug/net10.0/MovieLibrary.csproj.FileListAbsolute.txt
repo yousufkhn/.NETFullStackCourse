@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\MovieLibrary\bin\Debug\net10.0\MovieLibrary.exe
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\MovieLibrary\bin\Debug\net10.0\MovieLibrary.deps.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\MovieLibrary\bin\Debug\net10.0\MovieLibrary.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\MovieLibrary\bin\Debug\net10.0\MovieLibrary.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\MovieLibrary\bin\Debug\net10.0\MovieLibrary.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\MovieLibrary\obj\Debug\net10.0\MovieLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\MovieLibrary\obj\Debug\net10.0\MovieLibrary.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\MovieLibrary\obj\Debug\net10.0\MovieLibrary.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\MovieLibrary\obj\Debug\net10.0\MovieLibrary.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\MovieLibrary\obj\Debug\net10.0\MovieLibrary.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\MovieLibrary\obj\Debug\net10.0\MovieLibrary.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\MovieLibrary\obj\Debug\net10.0\refint\MovieLibrary.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\MovieLibrary\obj\Debug\net10.0\MovieLibrary.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\MovieLibrary\obj\Debug\net10.0\MovieLibrary.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\03JanAssignmentImportant\MovieLibrary\obj\Debug\net10.0\ref\MovieLibrary.dll

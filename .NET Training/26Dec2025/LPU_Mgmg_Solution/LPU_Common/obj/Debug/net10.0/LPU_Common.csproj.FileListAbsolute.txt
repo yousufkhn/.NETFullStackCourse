@@ -1,0 +1,16 @@
+D:\MyData\Capgemini\Training\.NET Training\26Dec2025\LPU_Mgmg_Solution\LPU_Common\bin\Debug\net10.0\LPU_Common.deps.json
+D:\MyData\Capgemini\Training\.NET Training\26Dec2025\LPU_Mgmg_Solution\LPU_Common\bin\Debug\net10.0\LPU_Common.dll
+D:\MyData\Capgemini\Training\.NET Training\26Dec2025\LPU_Mgmg_Solution\LPU_Common\bin\Debug\net10.0\LPU_Common.pdb
+D:\MyData\Capgemini\Training\.NET Training\26Dec2025\LPU_Mgmg_Solution\LPU_Common\bin\Debug\net10.0\LPU_Entity.dll
+D:\MyData\Capgemini\Training\.NET Training\26Dec2025\LPU_Mgmg_Solution\LPU_Common\bin\Debug\net10.0\LPU_Entity.pdb
+D:\MyData\Capgemini\Training\.NET Training\26Dec2025\LPU_Mgmg_Solution\LPU_Common\obj\Debug\net10.0\LPU_Common.csproj.AssemblyReference.cache
+D:\MyData\Capgemini\Training\.NET Training\26Dec2025\LPU_Mgmg_Solution\LPU_Common\obj\Debug\net10.0\LPU_Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\26Dec2025\LPU_Mgmg_Solution\LPU_Common\obj\Debug\net10.0\LPU_Common.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\26Dec2025\LPU_Mgmg_Solution\LPU_Common\obj\Debug\net10.0\LPU_Common.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\26Dec2025\LPU_Mgmg_Solution\LPU_Common\obj\Debug\net10.0\LPU_Common.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\26Dec2025\LPU_Mgmg_Solution\LPU_Common\obj\Debug\net10.0\LPU_Common.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\26Dec2025\LPU_Mgmg_Solution\LPU_Common\obj\Debug\net10.0\LPU_Common.csproj.Up2Date
+D:\MyData\Capgemini\Training\.NET Training\26Dec2025\LPU_Mgmg_Solution\LPU_Common\obj\Debug\net10.0\LPU_Common.dll
+D:\MyData\Capgemini\Training\.NET Training\26Dec2025\LPU_Mgmg_Solution\LPU_Common\obj\Debug\net10.0\refint\LPU_Common.dll
+D:\MyData\Capgemini\Training\.NET Training\26Dec2025\LPU_Mgmg_Solution\LPU_Common\obj\Debug\net10.0\LPU_Common.pdb
+D:\MyData\Capgemini\Training\.NET Training\26Dec2025\LPU_Mgmg_Solution\LPU_Common\obj\Debug\net10.0\ref\LPU_Common.dll

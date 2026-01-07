@@ -1,11 +1,106 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "LPU_BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "LPU_Common": "1.0.0",
+          "LPU_DAL": "1.0.0",
+          "LPU_Entity": "1.0.0",
+          "LPU_Exceptions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LPU_BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LPU_BL.dll": {}
+        }
+      },
+      "LPU_Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "LPU_Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LPU_Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LPU_Common.dll": {}
+        }
+      },
+      "LPU_DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "LPU_Common": "1.0.0",
+          "LPU_Entity": "1.0.0",
+          "LPU_Exceptions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LPU_DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LPU_DAL.dll": {}
+        }
+      },
+      "LPU_Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/LPU_Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LPU_Entity.dll": {}
+        }
+      },
+      "LPU_Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/LPU_Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LPU_Exceptions.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LPU_BL/1.0.0": {
+      "type": "project",
+      "path": "../LPU_BL/LPU_BL.csproj",
+      "msbuildProject": "../LPU_BL/LPU_BL.csproj"
+    },
+    "LPU_Common/1.0.0": {
+      "type": "project",
+      "path": "../LPU_Common/LPU_Common.csproj",
+      "msbuildProject": "../LPU_Common/LPU_Common.csproj"
+    },
+    "LPU_DAL/1.0.0": {
+      "type": "project",
+      "path": "../LPU_DAL/LPU_DAL.csproj",
+      "msbuildProject": "../LPU_DAL/LPU_DAL.csproj"
+    },
+    "LPU_Entity/1.0.0": {
+      "type": "project",
+      "path": "../LPU_Entity/LPU_Entity.csproj",
+      "msbuildProject": "../LPU_Entity/LPU_Entity.csproj"
+    },
+    "LPU_Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../LPU_Exceptions/LPU_Exceptions.csproj",
+      "msbuildProject": "../LPU_Exceptions/LPU_Exceptions.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "LPU_BL >= 1.0.0",
+      "LPU_Entity >= 1.0.0",
+      "LPU_Exceptions >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\khany\\.nuget\\packages\\": {},
@@ -38,7 +133,17 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_BL\\LPU_BL.csproj": {
+              "projectPath": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_BL\\LPU_BL.csproj"
+            },
+            "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Entity\\LPU_Entity.csproj": {
+              "projectPath": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Entity\\LPU_Entity.csproj"
+            },
+            "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Exceptions\\LPU_Exceptions.csproj": {
+              "projectPath": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Exceptions\\LPU_Exceptions.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\OperatorOverloadingDemo\bin\Debug\net10.0\OperatorOverloadingDemo.exe
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\OperatorOverloadingDemo\bin\Debug\net10.0\OperatorOverloadingDemo.deps.json
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\OperatorOverloadingDemo\bin\Debug\net10.0\OperatorOverloadingDemo.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\OperatorOverloadingDemo\bin\Debug\net10.0\OperatorOverloadingDemo.dll
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\OperatorOverloadingDemo\bin\Debug\net10.0\OperatorOverloadingDemo.pdb
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\OperatorOverloadingDemo\obj\Debug\net10.0\OperatorOverloadingDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\OperatorOverloadingDemo\obj\Debug\net10.0\OperatorOverloadingDemo.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\OperatorOverloadingDemo\obj\Debug\net10.0\OperatorOverloadingDemo.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\OperatorOverloadingDemo\obj\Debug\net10.0\OperatorOverloadingDemo.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\OperatorOverloadingDemo\obj\Debug\net10.0\OperatorOverloadingDemo.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\OperatorOverloadingDemo\obj\Debug\net10.0\OperatorOverloadingDemo.dll
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\OperatorOverloadingDemo\obj\Debug\net10.0\refint\OperatorOverloadingDemo.dll
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\OperatorOverloadingDemo\obj\Debug\net10.0\OperatorOverloadingDemo.pdb
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\OperatorOverloadingDemo\obj\Debug\net10.0\OperatorOverloadingDemo.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\OperatorOverloadingDemo\obj\Debug\net10.0\ref\OperatorOverloadingDemo.dll

@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\CustomPropertyDemo\bin\Debug\net10.0\CustomPropertyDemo.exe
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\CustomPropertyDemo\bin\Debug\net10.0\CustomPropertyDemo.deps.json
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\CustomPropertyDemo\bin\Debug\net10.0\CustomPropertyDemo.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\CustomPropertyDemo\bin\Debug\net10.0\CustomPropertyDemo.dll
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\CustomPropertyDemo\bin\Debug\net10.0\CustomPropertyDemo.pdb
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\CustomPropertyDemo\obj\Debug\net10.0\CustomPropertyDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\CustomPropertyDemo\obj\Debug\net10.0\CustomPropertyDemo.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\CustomPropertyDemo\obj\Debug\net10.0\CustomPropertyDemo.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\CustomPropertyDemo\obj\Debug\net10.0\CustomPropertyDemo.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\CustomPropertyDemo\obj\Debug\net10.0\CustomPropertyDemo.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\CustomPropertyDemo\obj\Debug\net10.0\CustomPropertyDemo.dll
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\CustomPropertyDemo\obj\Debug\net10.0\refint\CustomPropertyDemo.dll
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\CustomPropertyDemo\obj\Debug\net10.0\CustomPropertyDemo.pdb
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\CustomPropertyDemo\obj\Debug\net10.0\CustomPropertyDemo.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\06Jan2025\CustomPropertyDemo\obj\Debug\net10.0\ref\CustomPropertyDemo.dll

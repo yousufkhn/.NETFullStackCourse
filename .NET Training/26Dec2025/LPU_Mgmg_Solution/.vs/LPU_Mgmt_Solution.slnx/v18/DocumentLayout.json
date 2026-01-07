@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D452AECC-E794-4ABA-8003-B86F99738ACC}|LPU_Entity\\LPU_Entity.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\lpu_mgmg_solution\\lpu_entity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D452AECC-E794-4ABA-8003-B86F99738ACC}|LPU_Entity\\LPU_Entity.csproj|solutionrelative:lpu_entity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5352B91A-6E04-90B1-D9FC-1ADD574DD2BF}|LPU_BL\\LPU_BL.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\lpu_mgmg_solution\\lpu_bl\\studentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5352B91A-6E04-90B1-D9FC-1ADD574DD2BF}|LPU_BL\\LPU_BL.csproj|solutionrelative:lpu_bl\\studentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98B114BA-2F3A-4A82-8DF7-CE39F807B30C}|LPU_UI\\LPU_UI.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\lpu_mgmg_solution\\lpu_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98B114BA-2F3A-4A82-8DF7-CE39F807B30C}|LPU_UI\\LPU_UI.csproj|solutionrelative:lpu_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18317590-9BAD-F9A4-5DDE-7BA01CBAC2FF}|LPU_DAL\\LPU_DAL.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\lpu_mgmg_solution\\lpu_dal\\studentdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18317590-9BAD-F9A4-5DDE-7BA01CBAC2FF}|LPU_DAL\\LPU_DAL.csproj|solutionrelative:lpu_dal\\studentdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5879963-CB3B-4CEC-AA25-B778B7A040D5}|LPU_Exceptions\\LPU_Exceptions.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\lpu_mgmg_solution\\lpu_exceptions\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5879963-CB3B-4CEC-AA25-B778B7A040D5}|LPU_Exceptions\\LPU_Exceptions.csproj|solutionrelative:lpu_exceptions\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8DAB4FF3-6B18-9396-C8C7-E684C346A639}|LPU_UI\\LPU_UI.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\lpu_mgmg_solution\\lpu_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DAB4FF3-6B18-9396-C8C7-E684C346A639}|LPU_UI\\LPU_UI.csproj|solutionrelative:lpu_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{490CB0BC-8556-42F5-ADAE-96206A97838C}|LPU_DAL\\LPU_DAL.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\lpu_mgmg_solution\\lpu_dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{490CB0BC-8556-42F5-ADAE-96206A97838C}|LPU_DAL\\LPU_DAL.csproj|solutionrelative:lpu_dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2AC72A12-F472-6FB3-B6A5-F8480A01BBE4}|LPU_Entity\\LPU_Entity.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\lpu_mgmg_solution\\lpu_entity\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC72A12-F472-6FB3-B6A5-F8480A01BBE4}|LPU_Entity\\LPU_Entity.csproj|solutionrelative:lpu_entity\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{232AB3B2-68B7-4823-80EC-F2DC271C3015}|LPU_BL\\LPU_BL.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\lpu_mgmg_solution\\lpu_bl\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{232AB3B2-68B7-4823-80EC-F2DC271C3015}|LPU_BL\\LPU_BL.csproj|solutionrelative:lpu_bl\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8695A8E1-DCC8-4B4D-9719-0B575F0009A8}|LPU_Common\\LPU_Common.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\lpu_mgmg_solution\\lpu_common\\istudentcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8695A8E1-DCC8-4B4D-9719-0B575F0009A8}|LPU_Common\\LPU_Common.csproj|solutionrelative:lpu_common\\istudentcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC72A12-F472-6FB3-B6A5-F8480A01BBE4}|LPU_Entity\\LPU_Entity.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\lpu_mgmg_solution\\lpu_entity\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC72A12-F472-6FB3-B6A5-F8480A01BBE4}|LPU_Entity\\LPU_Entity.csproj|solutionrelative:lpu_entity\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18317590-9BAD-F9A4-5DDE-7BA01CBAC2FF}|LPU_DAL\\LPU_DAL.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\lpu_mgmg_solution\\lpu_dal\\bookdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18317590-9BAD-F9A4-5DDE-7BA01CBAC2FF}|LPU_DAL\\LPU_DAL.csproj|solutionrelative:lpu_dal\\bookdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8695A8E1-DCC8-4B4D-9719-0B575F0009A8}|LPU_Common\\LPU_Common.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\lpu_mgmg_solution\\lpu_common\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8695A8E1-DCC8-4B4D-9719-0B575F0009A8}|LPU_Common\\LPU_Common.csproj|solutionrelative:lpu_common\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8695A8E1-DCC8-4B4D-9719-0B575F0009A8}|LPU_Common\\LPU_Common.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\lpu_mgmg_solution\\lpu_common\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8695A8E1-DCC8-4B4D-9719-0B575F0009A8}|LPU_Common\\LPU_Common.csproj|solutionrelative:lpu_common\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8695A8E1-DCC8-4B4D-9719-0B575F0009A8}|LPU_Common\\LPU_Common.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\lpu_mgmg_solution\\lpu_common\\genericclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8695A8E1-DCC8-4B4D-9719-0B575F0009A8}|LPU_Common\\LPU_Common.csproj|solutionrelative:lpu_common\\genericclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B231728-17CC-3B42-6139-C4DA7EA6CD99}|LPU_Exceptions\\LPU_Exceptions.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\lpu_mgmg_solution\\lpu_exceptions\\lpuexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B231728-17CC-3B42-6139-C4DA7EA6CD99}|LPU_Exceptions\\LPU_Exceptions.csproj|solutionrelative:lpu_exceptions\\lpuexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Exceptions\\Class1.cs",
-              "RelativeDocumentMoniker": "LPU_Exceptions\\Class1.cs",
-              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Exceptions\\Class1.cs",
-              "RelativeToolTip": "LPU_Exceptions\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "BookDAO.cs",
+              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_DAL\\BookDAO.cs",
+              "RelativeDocumentMoniker": "LPU_DAL\\BookDAO.cs",
+              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_DAL\\BookDAO.cs",
+              "RelativeToolTip": "LPU_DAL\\BookDAO.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wA8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T05:04:53.537Z",
+              "WhenOpened": "2025-12-30T06:49:03.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEmployee.cs",
+              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Common\\IEmployee.cs",
+              "RelativeDocumentMoniker": "LPU_Common\\IEmployee.cs",
+              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Common\\IEmployee.cs",
+              "RelativeToolTip": "LPU_Common\\IEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T06:35:13.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Common\\IRepo.cs",
+              "RelativeDocumentMoniker": "LPU_Common\\IRepo.cs",
+              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Common\\IRepo.cs",
+              "RelativeToolTip": "LPU_Common\\IRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T06:22:01.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_UI\\Program.cs",
-              "RelativeDocumentMoniker": "LPU_UI\\Program.cs",
-              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_UI\\Program.cs",
-              "RelativeToolTip": "LPU_UI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T05:04:38.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Entity\\Class1.cs",
-              "RelativeDocumentMoniker": "LPU_Entity\\Class1.cs",
-              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Entity\\Class1.cs",
-              "RelativeToolTip": "LPU_Entity\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T05:04:24.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_DAL\\Class1.cs",
-              "RelativeDocumentMoniker": "LPU_DAL\\Class1.cs",
-              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_DAL\\Class1.cs",
-              "RelativeToolTip": "LPU_DAL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "StudentDAO.cs",
+              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_DAL\\StudentDAO.cs",
+              "RelativeDocumentMoniker": "LPU_DAL\\StudentDAO.cs",
+              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_DAL\\StudentDAO.cs",
+              "RelativeToolTip": "LPU_DAL\\StudentDAO.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwBgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-26T05:04:08.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_BL\\Class1.cs",
-              "RelativeDocumentMoniker": "LPU_BL\\Class1.cs",
-              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_BL\\Class1.cs",
-              "RelativeToolTip": "LPU_BL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "StudentBL.cs",
+              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_BL\\StudentBL.cs",
+              "RelativeDocumentMoniker": "LPU_BL\\StudentBL.cs",
+              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_BL\\StudentBL.cs",
+              "RelativeToolTip": "LPU_BL\\StudentBL.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvygAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-26T05:03:51.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IStudentCRUD.cs",
+              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Common\\IStudentCRUD.cs",
+              "RelativeDocumentMoniker": "LPU_Common\\IStudentCRUD.cs",
+              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Common\\IStudentCRUD.cs",
+              "RelativeToolTip": "LPU_Common\\IStudentCRUD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T08:57:07.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_UI\\Program.cs",
+              "RelativeDocumentMoniker": "LPU_UI\\Program.cs",
+              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_UI\\Program.cs",
+              "RelativeToolTip": "LPU_UI\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAADwv10AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T05:04:38.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Entity\\Student.cs",
+              "RelativeDocumentMoniker": "LPU_Entity\\Student.cs",
+              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Entity\\Student.cs",
+              "RelativeToolTip": "LPU_Entity\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T05:04:24.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Entity\\Book.cs",
+              "RelativeDocumentMoniker": "LPU_Entity\\Book.cs",
+              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Entity\\Book.cs",
+              "RelativeToolTip": "LPU_Entity\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T06:52:00.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenericClass.cs",
+              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Common\\GenericClass.cs",
+              "RelativeDocumentMoniker": "LPU_Common\\GenericClass.cs",
+              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Common\\GenericClass.cs",
+              "RelativeToolTip": "LPU_Common\\GenericClass.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T05:48:38.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LPUException.cs",
+              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Exceptions\\LPUException.cs",
+              "RelativeDocumentMoniker": "LPU_Exceptions\\LPUException.cs",
+              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\LPU_Mgmg_Solution\\LPU_Exceptions\\LPUException.cs",
+              "RelativeToolTip": "LPU_Exceptions\\LPUException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T05:04:53.537Z",
               "EditorCaption": ""
             }
           ]
