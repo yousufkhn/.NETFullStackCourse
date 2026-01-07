@@ -36,6 +36,8 @@ namespace PettyLedger
             // System.Console.WriteLine("Total spent " + expenseLegr.CalculateTotal());
             // System.Console.WriteLine("Total received " + incomeLegr.CalculateTotal());
 
+            System.Console.WriteLine("Net Balance == " + incomeLegr.CalculateTotal() - expenseLegr.CalculateTotal());
+
             /// Test case ends here
             /// =================================================================================================
             
@@ -60,7 +62,7 @@ namespace PettyLedger
                             System.Console.Write("Enter the Tran ID : ");
                             int id = Int32.Parse(Console.ReadLine());
 
-                            System.Console.Write("Enter the Date : ");
+                            System.Console.Write("Enter the Date in this format(2024,12,12) : ");
                             DateTime date = DateTime.Parse(Console.ReadLine());
 
                             System.Console.Write("Enter the Income Amount : ");
@@ -118,11 +120,7 @@ namespace PettyLedger
                             break;
                         }
                 }
-            }
-
-
-
-            
+            }  
         }
     }
 }
