@@ -37,7 +37,7 @@ namespace PettyLedger
             // System.Console.WriteLine("Total spent " + expenseLegr.CalculateTotal());
             // System.Console.WriteLine("Total received " + incomeLegr.CalculateTotal());
 
-            // System.Console.WriteLine("Net Balance == " + incomeLegr.CalculateTotal() - expenseLegr.CalculateTotal());
+            // System.Console.WriteLine("Net Balance == " + (incomeLegr.CalculateTotal() - expenseLegr.CalculateTotal()));
 
             /// Test case ends here
             /// =================================================================================================

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\EventsAndDelegatesDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DF190D5-1176-4F16-B859-D8B8F9A3FF87}|EventsAndDelegatesDemo\\EventsAndDelegatesDemo.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\eventsanddelegatesdemo\\eventsanddelegatesdemo\\delegatedemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF190D5-1176-4F16-B859-D8B8F9A3FF87}|EventsAndDelegatesDemo\\EventsAndDelegatesDemo.csproj|solutionrelative:eventsanddelegatesdemo\\delegatedemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{070DF417-DA8B-4F95-2475-A5863F646D58}|EventsAndDelegatesDemo\\EventsAndDelegatesDemo.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\eventsanddelegatesdemo\\eventsanddelegatesdemo\\delegatedemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{070DF417-DA8B-4F95-2475-A5863F646D58}|EventsAndDelegatesDemo\\EventsAndDelegatesDemo.csproj|solutionrelative:eventsanddelegatesdemo\\delegatedemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DF190D5-1176-4F16-B859-D8B8F9A3FF87}|EventsAndDelegatesDemo\\EventsAndDelegatesDemo.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\eventsanddelegatesdemo\\eventsanddelegatesdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF190D5-1176-4F16-B859-D8B8F9A3FF87}|EventsAndDelegatesDemo\\EventsAndDelegatesDemo.csproj|solutionrelative:eventsanddelegatesdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{070DF417-DA8B-4F95-2475-A5863F646D58}|EventsAndDelegatesDemo\\EventsAndDelegatesDemo.csproj|d:\\mydata\\capgemini\\training\\.net training\\26dec2025\\eventsanddelegatesdemo\\eventsanddelegatesdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{070DF417-DA8B-4F95-2475-A5863F646D58}|EventsAndDelegatesDemo\\EventsAndDelegatesDemo.csproj|solutionrelative:eventsanddelegatesdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "EventsAndDelegatesDemo\\DelegateDemo.cs",
               "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\26Dec2025\\EventsAndDelegatesDemo\\EventsAndDelegatesDemo\\DelegateDemo.cs",
               "RelativeToolTip": "EventsAndDelegatesDemo\\DelegateDemo.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T06:54:28.843Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": "EventsAndDelegatesDemo\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T06:54:00.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T06:54:00.185Z"
             }
           ]
         }

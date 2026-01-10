@@ -1,0 +1,10 @@
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\SerializationDemo\SerializationDemo\bin\Debug\SerializationDemo.exe.config
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\SerializationDemo\SerializationDemo\bin\Debug\SerializationDemo.exe
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\SerializationDemo\SerializationDemo\bin\Debug\SerializationDemo.pdb
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\SerializationDemo\SerializationDemo\obj\Debug\SerializationDemo.csproj.AssemblyReference.cache
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\SerializationDemo\SerializationDemo\obj\Debug\SerializationDemo.Properties.Resources.resources
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\SerializationDemo\SerializationDemo\obj\Debug\SerializationDemo.csproj.GenerateResource.cache
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\SerializationDemo\SerializationDemo\obj\Debug\SerializationDemo.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\SerializationDemo\SerializationDemo\obj\Debug\SerializationDemo.exe
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\SerializationDemo\SerializationDemo\obj\Debug\SerializationDemo.pdb
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\SerializationDemo\SerializationDemo\obj\Debug\SerializationDemo.Form1.resources

@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\serializationdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|solutionrelative:serializationdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\serializationdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|solutionrelative:serializationdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|d:\\mydata\\capgemini\\training\\.net training\\10jan2025\\serializationdemo\\serializationdemo\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|solutionrelative:serializationdemo\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\serializationdemo\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|solutionrelative:serializationdemo\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\serializationdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|solutionrelative:serializationdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\SerializationDemo\\Form1.cs",
+              "RelativeDocumentMoniker": "SerializationDemo\\Form1.cs",
+              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\SerializationDemo\\Form1.cs [Design]",
+              "RelativeToolTip": "SerializationDemo\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T05:52:45.404Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\SerializationDemo\\Program.cs",
+              "RelativeDocumentMoniker": "SerializationDemo\\Program.cs",
+              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\SerializationDemo\\Program.cs",
+              "RelativeToolTip": "SerializationDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T06:50:19.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\SerializationDemo\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "SerializationDemo\\Form1.Designer.cs",
+              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\SerializationDemo\\Form1.Designer.cs",
+              "RelativeToolTip": "SerializationDemo\\Form1.Designer.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAYwKkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T06:49:37.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\SerializationDemo\\Form1.cs",
+              "RelativeDocumentMoniker": "SerializationDemo\\Form1.cs",
+              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\SerializationDemo\\Form1.cs",
+              "RelativeToolTip": "SerializationDemo\\Form1.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwFwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T06:29:47.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\SerializationDemo\\Employee.cs",
+              "RelativeDocumentMoniker": "SerializationDemo\\Employee.cs",
+              "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\SerializationDemo\\Employee.cs",
+              "RelativeToolTip": "SerializationDemo\\Employee.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T06:12:19.165Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

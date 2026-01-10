@@ -1,0 +1,5 @@
+D:\k_prac_shoab_lec\DelegatesAndEvents\multicastdelegates\obj\Debug\ResolveAssemblyReference.cache
+D:\k_prac_shoab_lec\DelegatesAndEvents\multicastdelegates\bin\Debug\multicastdelegates.exe
+D:\k_prac_shoab_lec\DelegatesAndEvents\multicastdelegates\bin\Debug\multicastdelegates.pdb
+D:\k_prac_shoab_lec\DelegatesAndEvents\multicastdelegates\obj\Debug\multicastdelegates.exe
+D:\k_prac_shoab_lec\DelegatesAndEvents\multicastdelegates\obj\Debug\multicastdelegates.pdb

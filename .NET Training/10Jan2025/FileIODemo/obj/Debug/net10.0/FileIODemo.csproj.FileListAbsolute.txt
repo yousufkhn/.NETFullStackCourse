@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\FileIODemo\bin\Debug\net10.0\FileIODemo.exe
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\FileIODemo\bin\Debug\net10.0\FileIODemo.deps.json
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\FileIODemo\bin\Debug\net10.0\FileIODemo.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\FileIODemo\bin\Debug\net10.0\FileIODemo.dll
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\FileIODemo\bin\Debug\net10.0\FileIODemo.pdb
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\FileIODemo\obj\Debug\net10.0\FileIODemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\FileIODemo\obj\Debug\net10.0\FileIODemo.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\FileIODemo\obj\Debug\net10.0\FileIODemo.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\FileIODemo\obj\Debug\net10.0\FileIODemo.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\FileIODemo\obj\Debug\net10.0\FileIODemo.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\FileIODemo\obj\Debug\net10.0\FileIODemo.dll
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\FileIODemo\obj\Debug\net10.0\refint\FileIODemo.dll
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\FileIODemo\obj\Debug\net10.0\FileIODemo.pdb
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\FileIODemo\obj\Debug\net10.0\FileIODemo.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\FileIODemo\obj\Debug\net10.0\ref\FileIODemo.dll

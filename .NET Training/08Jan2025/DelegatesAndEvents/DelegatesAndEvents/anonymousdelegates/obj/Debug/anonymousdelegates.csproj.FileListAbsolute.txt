@@ -1,0 +1,5 @@
+D:\k_prac_shoab_lec\DelegatesAndEvents\anonymousdelegates\obj\Debug\ResolveAssemblyReference.cache
+D:\k_prac_shoab_lec\DelegatesAndEvents\anonymousdelegates\bin\Debug\anonymousdelegates.exe
+D:\k_prac_shoab_lec\DelegatesAndEvents\anonymousdelegates\bin\Debug\anonymousdelegates.pdb
+D:\k_prac_shoab_lec\DelegatesAndEvents\anonymousdelegates\obj\Debug\anonymousdelegates.exe
+D:\k_prac_shoab_lec\DelegatesAndEvents\anonymousdelegates\obj\Debug\anonymousdelegates.pdb

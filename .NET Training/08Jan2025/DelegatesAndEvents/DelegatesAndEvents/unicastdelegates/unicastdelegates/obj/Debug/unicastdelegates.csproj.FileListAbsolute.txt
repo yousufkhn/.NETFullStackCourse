@@ -1,0 +1,5 @@
+D:\k_prac_shoab_lec\DelegatesAndEvents\unicastdelegates\unicastdelegates\bin\Debug\unicastdelegates.exe
+D:\k_prac_shoab_lec\DelegatesAndEvents\unicastdelegates\unicastdelegates\bin\Debug\unicastdelegates.pdb
+D:\k_prac_shoab_lec\DelegatesAndEvents\unicastdelegates\unicastdelegates\obj\Debug\ResolveAssemblyReference.cache
+D:\k_prac_shoab_lec\DelegatesAndEvents\unicastdelegates\unicastdelegates\obj\Debug\unicastdelegates.exe
+D:\k_prac_shoab_lec\DelegatesAndEvents\unicastdelegates\unicastdelegates\obj\Debug\unicastdelegates.pdb

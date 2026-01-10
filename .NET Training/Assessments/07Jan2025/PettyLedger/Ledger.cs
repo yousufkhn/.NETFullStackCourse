@@ -4,7 +4,7 @@ namespace PettyLedger
 {
     public class Ledger<T> where T : Transaction
     {
-        internal List<T> transactions;
+        private List<T> transactions;
 
         public Ledger()
         {
@@ -27,7 +27,11 @@ namespace PettyLedger
 
         public List<T> GetTransactionsByDate(DateTime date)
         {
+            // here find all is encapsulating a for loop, which if we want to avoid using linq can be done using manual for 
+            // loop and comparison
             return transactions.FindAll(t => t.TransactionDate == date);
+
+
         }
 
         public float CalculateTotal()

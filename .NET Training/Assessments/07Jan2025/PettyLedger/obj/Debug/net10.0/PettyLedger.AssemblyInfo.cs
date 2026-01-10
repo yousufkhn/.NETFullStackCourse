@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PettyLedger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b8f01fb2bfd40cebbe686a6dfdbcba7a86a0b44")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfdf1e3fe15f87e9b626815b353ff04c01d7aea3")]
 [assembly: System.Reflection.AssemblyProductAttribute("PettyLedger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PettyLedger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
