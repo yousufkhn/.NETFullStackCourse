@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\StreamBuzz\bin\Debug\net10.0\StreamBuzz.exe
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\StreamBuzz\bin\Debug\net10.0\StreamBuzz.deps.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\StreamBuzz\bin\Debug\net10.0\StreamBuzz.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\StreamBuzz\bin\Debug\net10.0\StreamBuzz.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\StreamBuzz\bin\Debug\net10.0\StreamBuzz.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\StreamBuzz\obj\Debug\net10.0\StreamBuzz.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\StreamBuzz\obj\Debug\net10.0\StreamBuzz.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\StreamBuzz\obj\Debug\net10.0\StreamBuzz.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\StreamBuzz\obj\Debug\net10.0\StreamBuzz.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\StreamBuzz\obj\Debug\net10.0\StreamBuzz.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\StreamBuzz\obj\Debug\net10.0\StreamBuzz.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\StreamBuzz\obj\Debug\net10.0\refint\StreamBuzz.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\StreamBuzz\obj\Debug\net10.0\StreamBuzz.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\StreamBuzz\obj\Debug\net10.0\StreamBuzz.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\StreamBuzz\obj\Debug\net10.0\ref\StreamBuzz.dll

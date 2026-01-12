@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\HazardAnalyzer\bin\Debug\net10.0\HazardAnalyzer.exe
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\HazardAnalyzer\bin\Debug\net10.0\HazardAnalyzer.deps.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\HazardAnalyzer\bin\Debug\net10.0\HazardAnalyzer.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\HazardAnalyzer\bin\Debug\net10.0\HazardAnalyzer.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\HazardAnalyzer\bin\Debug\net10.0\HazardAnalyzer.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\HazardAnalyzer\obj\Debug\net10.0\HazardAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\HazardAnalyzer\obj\Debug\net10.0\HazardAnalyzer.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\HazardAnalyzer\obj\Debug\net10.0\HazardAnalyzer.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\HazardAnalyzer\obj\Debug\net10.0\HazardAnalyzer.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\HazardAnalyzer\obj\Debug\net10.0\HazardAnalyzer.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\HazardAnalyzer\obj\Debug\net10.0\HazardAnalyzer.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\HazardAnalyzer\obj\Debug\net10.0\refint\HazardAnalyzer.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\HazardAnalyzer\obj\Debug\net10.0\HazardAnalyzer.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\HazardAnalyzer\obj\Debug\net10.0\HazardAnalyzer.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\11Jan2025\HazardAnalyzer\obj\Debug\net10.0\ref\HazardAnalyzer.dll

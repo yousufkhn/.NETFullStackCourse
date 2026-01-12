@@ -1,0 +1,7 @@
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\LINQ_ConsoleApp\LINQ_ConsoleApp\bin\Debug\LINQ_ConsoleApp.exe.config
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\LINQ_ConsoleApp\LINQ_ConsoleApp\bin\Debug\LINQ_ConsoleApp.exe
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\LINQ_ConsoleApp\LINQ_ConsoleApp\bin\Debug\LINQ_ConsoleApp.pdb
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\LINQ_ConsoleApp\LINQ_ConsoleApp\obj\Debug\LINQ_ConsoleApp.csproj.AssemblyReference.cache
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\LINQ_ConsoleApp\LINQ_ConsoleApp\obj\Debug\LINQ_ConsoleApp.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\LINQ_ConsoleApp\LINQ_ConsoleApp\obj\Debug\LINQ_ConsoleApp.exe
+D:\MyData\Capgemini\Training\.NET Training\10Jan2025\LINQ_ConsoleApp\LINQ_ConsoleApp\obj\Debug\LINQ_ConsoleApp.pdb
