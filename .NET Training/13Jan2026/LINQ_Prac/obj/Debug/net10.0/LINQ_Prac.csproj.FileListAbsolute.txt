@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\LINQ_Prac\bin\Debug\net10.0\LINQ_Prac.exe
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\LINQ_Prac\bin\Debug\net10.0\LINQ_Prac.deps.json
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\LINQ_Prac\bin\Debug\net10.0\LINQ_Prac.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\LINQ_Prac\bin\Debug\net10.0\LINQ_Prac.dll
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\LINQ_Prac\bin\Debug\net10.0\LINQ_Prac.pdb
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\LINQ_Prac\obj\Debug\net10.0\LINQ_Prac.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\LINQ_Prac\obj\Debug\net10.0\LINQ_Prac.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\LINQ_Prac\obj\Debug\net10.0\LINQ_Prac.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\LINQ_Prac\obj\Debug\net10.0\LINQ_Prac.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\LINQ_Prac\obj\Debug\net10.0\LINQ_Prac.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\LINQ_Prac\obj\Debug\net10.0\LINQ_Prac.dll
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\LINQ_Prac\obj\Debug\net10.0\refint\LINQ_Prac.dll
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\LINQ_Prac\obj\Debug\net10.0\LINQ_Prac.pdb
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\LINQ_Prac\obj\Debug\net10.0\LINQ_Prac.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\LINQ_Prac\obj\Debug\net10.0\ref\LINQ_Prac.dll

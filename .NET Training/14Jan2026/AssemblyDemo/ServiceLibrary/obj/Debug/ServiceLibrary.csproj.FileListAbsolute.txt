@@ -1,0 +1,6 @@
+D:\MyData\Capgemini\Training\.NET Training\14Jan2026\AssemblyDemo\ServiceLibrary\bin\Debug\ServiceLibrary.dll
+D:\MyData\Capgemini\Training\.NET Training\14Jan2026\AssemblyDemo\ServiceLibrary\bin\Debug\ServiceLibrary.pdb
+D:\MyData\Capgemini\Training\.NET Training\14Jan2026\AssemblyDemo\ServiceLibrary\obj\Debug\ServiceLibrary.csproj.AssemblyReference.cache
+D:\MyData\Capgemini\Training\.NET Training\14Jan2026\AssemblyDemo\ServiceLibrary\obj\Debug\ServiceLibrary.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\14Jan2026\AssemblyDemo\ServiceLibrary\obj\Debug\ServiceLibrary.dll
+D:\MyData\Capgemini\Training\.NET Training\14Jan2026\AssemblyDemo\ServiceLibrary\obj\Debug\ServiceLibrary.pdb

@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\PhoneCallSubscription\bin\Debug\net10.0\PhoneCallSubscription.exe
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\PhoneCallSubscription\bin\Debug\net10.0\PhoneCallSubscription.deps.json
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\PhoneCallSubscription\bin\Debug\net10.0\PhoneCallSubscription.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\PhoneCallSubscription\bin\Debug\net10.0\PhoneCallSubscription.dll
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\PhoneCallSubscription\bin\Debug\net10.0\PhoneCallSubscription.pdb
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\PhoneCallSubscription\obj\Debug\net10.0\PhoneCallSubscription.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\PhoneCallSubscription\obj\Debug\net10.0\PhoneCallSubscription.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\PhoneCallSubscription\obj\Debug\net10.0\PhoneCallSubscription.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\PhoneCallSubscription\obj\Debug\net10.0\PhoneCallSubscription.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\PhoneCallSubscription\obj\Debug\net10.0\PhoneCallSubscription.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\PhoneCallSubscription\obj\Debug\net10.0\PhoneCallSubscription.dll
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\PhoneCallSubscription\obj\Debug\net10.0\refint\PhoneCallSubscription.dll
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\PhoneCallSubscription\obj\Debug\net10.0\PhoneCallSubscription.pdb
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\PhoneCallSubscription\obj\Debug\net10.0\PhoneCallSubscription.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\PhoneCallSubscription\obj\Debug\net10.0\ref\PhoneCallSubscription.dll

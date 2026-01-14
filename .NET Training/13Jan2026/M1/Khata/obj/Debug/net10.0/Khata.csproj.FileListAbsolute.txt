@@ -1,0 +1,15 @@
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\Khata\bin\Debug\net10.0\Khata.exe
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\Khata\bin\Debug\net10.0\Khata.deps.json
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\Khata\bin\Debug\net10.0\Khata.runtimeconfig.json
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\Khata\bin\Debug\net10.0\Khata.dll
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\Khata\bin\Debug\net10.0\Khata.pdb
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\Khata\obj\Debug\net10.0\Khata.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\Khata\obj\Debug\net10.0\Khata.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\Khata\obj\Debug\net10.0\Khata.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\Khata\obj\Debug\net10.0\Khata.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\Khata\obj\Debug\net10.0\Khata.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\Khata\obj\Debug\net10.0\Khata.dll
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\Khata\obj\Debug\net10.0\refint\Khata.dll
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\Khata\obj\Debug\net10.0\Khata.pdb
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\Khata\obj\Debug\net10.0\Khata.genruntimeconfig.cache
+D:\MyData\Capgemini\Training\.NET Training\13Jan2026\M1\Khata\obj\Debug\net10.0\ref\Khata.dll

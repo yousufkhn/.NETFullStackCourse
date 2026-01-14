@@ -1,0 +1,10 @@
+D:\MyData\Capgemini\Training\.NET Training\14Jan2026\AssemblyDemo\UILogic\bin\Debug\UILogic.exe.config
+D:\MyData\Capgemini\Training\.NET Training\14Jan2026\AssemblyDemo\UILogic\bin\Debug\UILogic.exe
+D:\MyData\Capgemini\Training\.NET Training\14Jan2026\AssemblyDemo\UILogic\bin\Debug\UILogic.pdb
+D:\MyData\Capgemini\Training\.NET Training\14Jan2026\AssemblyDemo\UILogic\bin\Debug\ServiceLibrary.dll
+D:\MyData\Capgemini\Training\.NET Training\14Jan2026\AssemblyDemo\UILogic\bin\Debug\ServiceLibrary.pdb
+D:\MyData\Capgemini\Training\.NET Training\14Jan2026\AssemblyDemo\UILogic\obj\Debug\UILogic.csproj.AssemblyReference.cache
+D:\MyData\Capgemini\Training\.NET Training\14Jan2026\AssemblyDemo\UILogic\obj\Debug\UILogic.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\14Jan2026\AssemblyDemo\UILogic\obj\Debug\UILogic.csproj.Up2Date
+D:\MyData\Capgemini\Training\.NET Training\14Jan2026\AssemblyDemo\UILogic\obj\Debug\UILogic.exe
+D:\MyData\Capgemini\Training\.NET Training\14Jan2026\AssemblyDemo\UILogic\obj\Debug\UILogic.pdb
