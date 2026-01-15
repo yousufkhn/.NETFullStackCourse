@@ -1,0 +1,10 @@
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\WinReflectionDemo\WinReflectionDemo\bin\Debug\WinReflectionDemo.exe.config
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\WinReflectionDemo\WinReflectionDemo\bin\Debug\WinReflectionDemo.exe
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\WinReflectionDemo\WinReflectionDemo\bin\Debug\WinReflectionDemo.pdb
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\WinReflectionDemo\WinReflectionDemo\obj\Debug\WinReflectionDemo.csproj.AssemblyReference.cache
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\WinReflectionDemo\WinReflectionDemo\obj\Debug\WinReflectionDemo.Form1.resources
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\WinReflectionDemo\WinReflectionDemo\obj\Debug\WinReflectionDemo.Properties.Resources.resources
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\WinReflectionDemo\WinReflectionDemo\obj\Debug\WinReflectionDemo.csproj.GenerateResource.cache
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\WinReflectionDemo\WinReflectionDemo\obj\Debug\WinReflectionDemo.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\WinReflectionDemo\WinReflectionDemo\obj\Debug\WinReflectionDemo.exe
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\WinReflectionDemo\WinReflectionDemo\obj\Debug\WinReflectionDemo.pdb

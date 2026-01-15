@@ -1,0 +1,7 @@
+F:\Cg25JunBatch\TupplesDemo\TupplesDemo\bin\Debug\TupplesDemo.exe.config
+F:\Cg25JunBatch\TupplesDemo\TupplesDemo\bin\Debug\TupplesDemo.exe
+F:\Cg25JunBatch\TupplesDemo\TupplesDemo\bin\Debug\TupplesDemo.pdb
+F:\Cg25JunBatch\TupplesDemo\TupplesDemo\obj\Debug\TupplesDemo.csproj.AssemblyReference.cache
+F:\Cg25JunBatch\TupplesDemo\TupplesDemo\obj\Debug\TupplesDemo.csproj.CoreCompileInputs.cache
+F:\Cg25JunBatch\TupplesDemo\TupplesDemo\obj\Debug\TupplesDemo.exe
+F:\Cg25JunBatch\TupplesDemo\TupplesDemo\obj\Debug\TupplesDemo.pdb
