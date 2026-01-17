@@ -1,0 +1,7 @@
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\M1Prac\PrepareBillProj\obj\Debug\PrepareBillProj.csproj.AssemblyReference.cache
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\M1Prac\PrepareBillProj\obj\Debug\PrepareBillProj.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\M1Prac\PrepareBillProj\bin\Debug\PrepareBillProj.exe.config
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\M1Prac\PrepareBillProj\bin\Debug\PrepareBillProj.exe
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\M1Prac\PrepareBillProj\bin\Debug\PrepareBillProj.pdb
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\M1Prac\PrepareBillProj\obj\Debug\PrepareBillProj.exe
+D:\MyData\Capgemini\Training\.NET Training\15Jan2026\M1Prac\PrepareBillProj\obj\Debug\PrepareBillProj.pdb

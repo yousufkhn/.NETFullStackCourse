@@ -32,14 +32,16 @@ namespace PrepareBillProj
             {
                 if (!_taxRates.ContainsKey(item.Category))
                 {
-                    throw new ArgumentException;
+                    throw new ArgumentException();
                 }
                 else
                 {
-                    total += item.CommodityPrice;
+                    total += item.CommodityPrice * item.CommodityQuantity +  (((item.CommodityPrice * item.CommodityQuantity)* _taxRates[item.Category])/100);
                 }
             }
             return total;
+            float f = Convert.ToSingle(909099090912313);
+
         }
     }
 }

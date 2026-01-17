@@ -1,0 +1,8 @@
+.NET Framework/ .NET Core
+CLR,CLS,CTS,JIT
+Garbage Collector
+C# Basics - 
+
+
+
+ 

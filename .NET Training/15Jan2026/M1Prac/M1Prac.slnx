@@ -1,5 +1,6 @@
 <Solution>
-  <Project Path="M1Prac/M1Prac.csproj" />
-  <Project Path="MethodOverloadingProj/MethodOverloadingProj.csproj" />
-  <Project Path="PersonDetailsProj/PersonDetailsProj.csproj" />
+  <Project Path="M1Prac/M1Prac.csproj" Id="595b94a5-5634-4447-9299-0f4e5e0f2f91" />
+  <Project Path="MethodOverloadingProj/MethodOverloadingProj.csproj" Id="d7859f8b-839c-4192-b0a7-794f70d7c110" />
+  <Project Path="PersonDetailsProj/PersonDetailsProj.csproj" Id="74af5252-cacc-4e53-abf8-005b66877791" />
+  <Project Path="PrepareBillProj/PrepareBillProj.csproj" Id="44a3ace6-123f-4774-a632-15d55c430513" />
 </Solution>
