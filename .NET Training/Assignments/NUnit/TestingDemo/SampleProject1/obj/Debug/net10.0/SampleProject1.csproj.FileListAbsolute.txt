@@ -1,0 +1,12 @@
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject1\bin\Debug\net10.0\SampleProject1.deps.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject1\bin\Debug\net10.0\SampleProject1.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject1\bin\Debug\net10.0\SampleProject1.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject1\obj\Debug\net10.0\SampleProject1.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject1\obj\Debug\net10.0\SampleProject1.AssemblyInfoInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject1\obj\Debug\net10.0\SampleProject1.AssemblyInfo.cs
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject1\obj\Debug\net10.0\SampleProject1.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject1\obj\Debug\net10.0\SampleProject1.sourcelink.json
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject1\obj\Debug\net10.0\SampleProject1.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject1\obj\Debug\net10.0\refint\SampleProject1.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject1\obj\Debug\net10.0\SampleProject1.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject1\obj\Debug\net10.0\ref\SampleProject1.dll

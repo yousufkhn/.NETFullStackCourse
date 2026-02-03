@@ -1,0 +1,6 @@
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject2\bin\Debug\SampleProject2.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject2\bin\Debug\SampleProject2.pdb
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject2\obj\Debug\SampleProject2.csproj.AssemblyReference.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject2\obj\Debug\SampleProject2.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject2\obj\Debug\SampleProject2.dll
+D:\MyData\Capgemini\Training\.NET Training\Assignments\NUnit\TestingDemo\SampleProject2\obj\Debug\SampleProject2.pdb
