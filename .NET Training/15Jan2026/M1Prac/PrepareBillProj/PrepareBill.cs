@@ -40,8 +40,6 @@ namespace PrepareBillProj
                 }
             }
             return total;
-            float f = Convert.ToSingle(909099090912313);
-
         }
     }
 }

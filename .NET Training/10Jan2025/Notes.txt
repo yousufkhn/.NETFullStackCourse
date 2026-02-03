@@ -1,8 +1,8 @@
 Serialization - 
-1. Binary(fastest)
-2. XML 
-3. SOAP 
-4. JSON
+1. Binary - (fastest) , for same domain
+2. XML - for different domain
+3. SOAP - Simple object access protocol, cross domain/entities, 
+4. JSON - modern lightweight, web
 
 Make the class serializable, fields or properties that are sensitive - mark them [non serialized]
 Opt out model, marking the field we don't need as non serializable

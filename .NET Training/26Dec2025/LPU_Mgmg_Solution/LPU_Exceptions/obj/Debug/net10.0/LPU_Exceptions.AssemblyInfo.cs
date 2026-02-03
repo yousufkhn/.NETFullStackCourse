@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LPU_Exceptions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82db6cc7d206fdd9619e57573dd2236894f2ed50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d3ed5c08e6821276099bd1c0ded763786f29684")]
 [assembly: System.Reflection.AssemblyProductAttribute("LPU_Exceptions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LPU_Exceptions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

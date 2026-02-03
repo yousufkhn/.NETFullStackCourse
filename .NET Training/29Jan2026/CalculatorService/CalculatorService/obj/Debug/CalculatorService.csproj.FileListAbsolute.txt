@@ -1,0 +1,6 @@
+D:\MyData\Capgemini\Training\.NET Training\29Jan2026\CalculatorService\CalculatorService\bin\Debug\CalculatorService.dll
+D:\MyData\Capgemini\Training\.NET Training\29Jan2026\CalculatorService\CalculatorService\bin\Debug\CalculatorService.pdb
+D:\MyData\Capgemini\Training\.NET Training\29Jan2026\CalculatorService\CalculatorService\obj\Debug\CalculatorService.csproj.AssemblyReference.cache
+D:\MyData\Capgemini\Training\.NET Training\29Jan2026\CalculatorService\CalculatorService\obj\Debug\CalculatorService.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\29Jan2026\CalculatorService\CalculatorService\obj\Debug\CalculatorService.dll
+D:\MyData\Capgemini\Training\.NET Training\29Jan2026\CalculatorService\CalculatorService\obj\Debug\CalculatorService.pdb

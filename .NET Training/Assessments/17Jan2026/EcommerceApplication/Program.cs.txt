@@ -1,0 +1,7 @@
+namespace Ecommerce{
+	public class Program{
+		public EcommerceShop MakePayment(string name, double balance, double amount){
+		
+		}
+	}
+}
