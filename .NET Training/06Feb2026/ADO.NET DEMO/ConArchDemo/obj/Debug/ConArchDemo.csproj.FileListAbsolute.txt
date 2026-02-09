@@ -1,0 +1,7 @@
+D:\MyData\Capgemini\Training\.NET Training\06Feb2026\ADO.NET DEMO\ConArchDemo\bin\Debug\ConArchDemo.exe.config
+D:\MyData\Capgemini\Training\.NET Training\06Feb2026\ADO.NET DEMO\ConArchDemo\bin\Debug\ConArchDemo.exe
+D:\MyData\Capgemini\Training\.NET Training\06Feb2026\ADO.NET DEMO\ConArchDemo\bin\Debug\ConArchDemo.pdb
+D:\MyData\Capgemini\Training\.NET Training\06Feb2026\ADO.NET DEMO\ConArchDemo\obj\Debug\ConArchDemo.csproj.AssemblyReference.cache
+D:\MyData\Capgemini\Training\.NET Training\06Feb2026\ADO.NET DEMO\ConArchDemo\obj\Debug\ConArchDemo.csproj.CoreCompileInputs.cache
+D:\MyData\Capgemini\Training\.NET Training\06Feb2026\ADO.NET DEMO\ConArchDemo\obj\Debug\ConArchDemo.exe
+D:\MyData\Capgemini\Training\.NET Training\06Feb2026\ADO.NET DEMO\ConArchDemo\obj\Debug\ConArchDemo.pdb

@@ -1,6 +1,6 @@
 <Solution>
-  <Project Path="CalculatorService/CalculatorService.csproj" />
-  <Project Path="MSTestProject1/MSTestProject1.csproj" />
-  <Project Path="NUnitTestProject1/NUnitTestProject1.csproj" />
-  <Project Path="UnitTestProject1/UnitTestProject1.csproj" />
+  <Project Path="D:/MyData/Capgemini/Training/.NET Training/29Jan2026/CalculatorService/CalculatorService/CalculatorService.csproj" Id="5021e809-dcf0-4279-83a6-586564c35efe" />
+  <Project Path="D:/MyData/Capgemini/Training/.NET Training/29Jan2026/CalculatorService/MSTestProject1/MSTestProject1.csproj" />
+  <Project Path="D:/MyData/Capgemini/Training/.NET Training/29Jan2026/CalculatorService/NUnitTestProject1/NUnitTestProject1.csproj" />
+  <Project Path="D:/MyData/Capgemini/Training/.NET Training/29Jan2026/CalculatorService/UnitTestProject1/UnitTestProject1.csproj" Id="9b2a8ca7-9c78-4d02-970c-2b4e7b2308c2" />
 </Solution>
