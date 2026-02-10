@@ -1,1 +1,4 @@
 .vs/
+# .NET build output
+bin/
+obj/
