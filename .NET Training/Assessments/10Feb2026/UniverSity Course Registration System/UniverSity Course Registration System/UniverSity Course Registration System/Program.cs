@@ -28,7 +28,8 @@ namespace University_Course_Registration_System
                 Console.WriteLine("8. Exit");
 
                 Console.Write("Enter choice: ");
-                string choice = Console.ReadLine();
+                int choice = Int32.Parse(Console.ReadLine());
+                
 
                 try
                 {
@@ -36,6 +37,17 @@ namespace University_Course_Registration_System
                     // Implement menu handling logic using switch-case
                     // Prompt user inputs
                     // Call appropriate UniversitySystem methods
+                    switch (choice){
+                        case 1:
+                            {
+                                Console.WriteLine("Enter");
+                                break;
+                            }
+                        default:
+                            {
+                                break;
+                            }
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -45,4 +57,3 @@ namespace University_Course_Registration_System
         }
     }
 }
-
