@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<FlightSearchEngine.Models.FlightResult>
+@if (Model == null || !Model.Any())
+{
+    <p>No results found.</p>
+}
+else
+{
+    <table border="1">
+        <tr>
+            <th>FlightId</th>
+            <th>FlightName</th>
+            <th>Source</th>
+            <th>Destination</th>
+            <th>TotalCost</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FlightId</td>
+                <td>@item.FlightName</td>
+                <td>@item.Source</td>
+                <td>@item.Destination</td>
+                <td>@item.TotalCost</td>
+            </tr>
+        }
+    </table>
+}

@@ -1,0 +1,33 @@
+﻿@model FlightSearchEngine.Models.SearchViewModel
+
+<form asp-asp-controller="Flight" asp-action="SearchFlights" method="post">
+    <div>
+        <label>Source</label>
+        <select asp-for="Source" asp-items="Model.SourceList">
+            <option value="">-- Select Source --</option>
+        </select>
+
+    </div>
+
+    <div>
+        <label>Destination</label>
+        <select asp-for="Destination" asp-items="Model.DestinationList">
+            <option value="">-- Select Destination --</option>
+        </select>
+    </div>
+
+    <div>
+        <label>Number of Persons</label>
+        <input asp-for="NumberOfPersons" type="number" />
+    </div>
+
+    <span asp-validation-summary="All"></span>
+
+    <button formaction="@Url.Action("SearchFlights")">
+        Search Flights Only
+    </button>
+
+    <button formaction="@Url.Action("SearchFlightsWithHotels")">
+        Search Flight + Hotel
+    </button>
+</form>
