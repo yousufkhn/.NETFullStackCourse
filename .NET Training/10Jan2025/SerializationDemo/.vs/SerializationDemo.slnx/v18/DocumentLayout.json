@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\serializationdemo\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|d:\\mydata\\capgemini\\training\\.net training\\10jan2025\\serializationdemo\\serializationdemo\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|solutionrelative:serializationdemo\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|solutionrelative:serializationdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|d:\\mydata\\capgemini\\training\\.net training\\10jan2025\\serializationdemo\\serializationdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\serializationdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB889769-95D9-439D-A12B-0EBC4B7616D4}|SerializationDemo\\SerializationDemo.csproj|solutionrelative:serializationdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,8 +42,7 @@
               "RelativeToolTip": "SerializationDemo\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T05:52:45.404Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "SerializationDemo\\Program.cs",
               "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\SerializationDemo\\Program.cs",
               "RelativeToolTip": "SerializationDemo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T06:50:19.732Z",
               "EditorCaption": ""
@@ -68,8 +67,7 @@
               "RelativeToolTip": "SerializationDemo\\Form1.Designer.cs",
               "ViewState": "AgIAAJMAAAAAAAAAAAAYwKkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T06:49:37.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T06:49:37.576Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "SerializationDemo\\Form1.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAmwDAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T06:29:47.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T06:29:47.44Z"
             },
             {
               "$type": "Document",
@@ -92,7 +89,7 @@
               "RelativeDocumentMoniker": "SerializationDemo\\Employee.cs",
               "ToolTip": "D:\\MyData\\Capgemini\\Training\\.NET Training\\10Jan2025\\SerializationDemo\\SerializationDemo\\Employee.cs",
               "RelativeToolTip": "SerializationDemo\\Employee.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T06:12:19.165Z",
               "EditorCaption": ""

@@ -44,7 +44,7 @@ namespace SmartBank
             }
             catch(InvalidCreditDataException e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine(e); 
             }
 
 

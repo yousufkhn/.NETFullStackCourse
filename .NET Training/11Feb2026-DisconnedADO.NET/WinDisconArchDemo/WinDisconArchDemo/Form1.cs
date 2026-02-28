@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WinDisconArchDemo
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            ProductUtility utility = new ProductUtility();
+            dataGridView1.DataSource = utility.ShowAll();
+
+            DataTable myDt = utility.GetAllData();
+
+            // Binding UI Elements with Table Column
+
+            txt_ProdID.DataBindings.Add("Text", myDt, myDt.Columns[0].ColumnName);
+            txt_ProdName.DataBindings.Add("Text", myDt, myDt.Columns[1].ColumnName);
+            txt_Price.DataBindings.Add("Text", myDt, myDt.Columns[3].ColumnName);
+            txt_Desc.DataBindings.Add("Text", myDt, myDt.Columns[4].ColumnName);
+
+        }
+    }
+}

@@ -1,0 +1,6 @@
+@UniMartAPI_HostAddress = http://localhost:5008
+
+GET {{UniMartAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

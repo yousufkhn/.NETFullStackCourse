@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FileIODemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d3ed5c08e6821276099bd1c0ded763786f29684")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c139d9c3ed097bb64ef622e1645521c2fdb8b2cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("FileIODemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FileIODemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
