@@ -1,0 +1,68 @@
+﻿@model StudentPortal.Models.Student
+
+@{
+    ViewData["Title"] = "Remove Candidate";
+}
+
+<div class="d-flex justify-content-center">
+    <div class="sp-delete-card w-100">
+        <!-- Danger icon -->
+        <div class="sp-delete-icon">
+            <i class="fas fa-triangle-exclamation"></i>
+        </div>
+        <h2 style="font-size:1.5rem;font-weight:800;margin-bottom:0.2rem;color:#003875">Remove Candidate</h2>
+        <p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:1.5rem">
+            This will <strong>permanently remove</strong> the candidate from the Capgemini Top Students Selector. This cannot be undone.
+        </p>
+
+        <hr class="sp-divider" />
+
+        <!-- Details -->
+        <div class="sp-detail-row">
+            <span class="sp-detail-label"><i class="fas fa-hashtag me-1"></i>ID</span>
+            <span class="sp-detail-value"><span class="sp-id-badge">@Model.StudentId</span></span>
+        </div>
+        <div class="sp-detail-row">
+            <span class="sp-detail-label"><i class="fas fa-user me-1"></i>Name</span>
+            <span class="sp-detail-value sp-name">@Model.FullName</span>
+        </div>
+        <div class="sp-detail-row">
+            <span class="sp-detail-label"><i class="fas fa-envelope me-1"></i>Email</span>
+            <span class="sp-detail-value sp-email">@Model.Email</span>
+        </div>
+        <div class="sp-detail-row">
+            <span class="sp-detail-label"><i class="fas fa-phone me-1"></i>Phone</span>
+            <span class="sp-detail-value">@(Model.Phone ?? "—")</span>
+        </div>
+        <div class="sp-detail-row">
+            <span class="sp-detail-label"><i class="fas fa-circle-dot me-1"></i>Status</span>
+            <span class="sp-detail-value">
+                @{
+                    var badgeCls = Model.Status?.ToLower() == "active" ? "sp-badge-active" :
+                                   Model.Status?.ToLower() == "inactive" ? "sp-badge-inactive" : "sp-badge-default";
+                }
+                <span class="sp-badge @badgeCls">@Model.Status</span>
+            </span>
+        </div>
+        <div class="sp-detail-row">
+            <span class="sp-detail-label"><i class="fas fa-calendar me-1"></i>Join Date</span>
+            <span class="sp-detail-value">@Model.JoinDate</span>
+        </div>
+        <div class="sp-detail-row">
+            <span class="sp-detail-label"><i class="fas fa-clock me-1"></i>Created</span>
+            <span class="sp-detail-value">@Model.CreatedAt.ToString("MMM dd, yyyy HH:mm")</span>
+        </div>
+
+        <hr class="sp-divider" />
+
+        <form asp-action="Delete" class="d-flex gap-2">
+            <input type="hidden" asp-for="StudentId" />
+            <button type="submit" class="sp-btn sp-btn-danger sp-btn-lg flex-grow-1">
+                <i class="fas fa-trash"></i> Yes, Delete
+            </button>
+            <a asp-action="Index" class="sp-btn sp-btn-secondary sp-btn-lg">
+                <i class="fas fa-arrow-left"></i> Cancel
+            </a>
+        </form>
+    </div>
+</div>

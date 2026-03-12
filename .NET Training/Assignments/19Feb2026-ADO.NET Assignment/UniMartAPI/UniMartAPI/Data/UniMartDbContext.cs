@@ -18,7 +18,6 @@ namespace UniMartAPI.Data
             // using -> dotnet ef migrations add [migrationname]
             // then -> dotnet ef database update
 
-
             modelBuilder.Entity<User>()
                 .HasIndex(u => u.Email)
                 .IsUnique();
@@ -29,14 +28,14 @@ namespace UniMartAPI.Data
 
             modelBuilder.Entity<Category>()
                 .HasData(
-                    new Category { CategoryId = 1, Name="Books"},
+                    new Category { CategoryId = 1, Name = "Books" },
                     new Category { CategoryId = 2, Name = "Electronics" },
                     new Category { CategoryId = 3, Name = "Furniture" },
                     new Category { CategoryId = 4, Name = "Hostel Essentials" },
                     new Category { CategoryId = 5, Name = "Clothing" },
-                    new Category { CategoryId = 6, Name = "Accessories"},
-                    new Category { CategoryId = 7, Name = "Sports"},
-                    new Category { CategoryId = 8, Name = "Others"}
+                    new Category { CategoryId = 6, Name = "Accessories" },
+                    new Category { CategoryId = 7, Name = "Sports" },
+                    new Category { CategoryId = 8, Name = "Others" }
                 );
         }
     }

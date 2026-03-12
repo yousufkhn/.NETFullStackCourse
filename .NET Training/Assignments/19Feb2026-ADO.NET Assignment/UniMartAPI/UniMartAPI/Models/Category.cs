@@ -4,7 +4,7 @@ namespace UniMartAPI.Models
 {
     public class Category
     {
-
+        
         public int CategoryId { get; set; }
         [Required]
         [MaxLength(50)]

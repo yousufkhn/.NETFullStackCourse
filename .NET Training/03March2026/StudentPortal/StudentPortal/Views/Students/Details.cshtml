@@ -1,0 +1,66 @@
+﻿@model StudentPortal.Models.Student
+
+@{
+    ViewData["Title"] = "Candidate Details";
+}
+
+<div class="d-flex justify-content-center">
+    <div class="sp-form-card w-100" style="border-color:rgba(0,112,173,0.2)">
+        <!-- Header -->
+        <div class="sp-form-icon-header" style="background:linear-gradient(135deg,#003875,#12ABDB)">
+            <i class="fas fa-id-card"></i>
+        </div>
+        <h2 style="font-size:1.5rem;font-weight:800;margin-bottom:0.2rem;color:#003875">Candidate Profile</h2>
+        <p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:1.5rem">
+            Capgemini .NET Training &middot; Batch March 2026
+        </p>
+
+        <hr class="sp-divider" />
+
+        <div class="sp-detail-row">
+            <span class="sp-detail-label"><i class="fas fa-hashtag me-1"></i>ID</span>
+            <span class="sp-detail-value"><span class="sp-id-badge">@Model?.StudentId</span></span>
+        </div>
+        <div class="sp-detail-row">
+            <span class="sp-detail-label"><i class="fas fa-user me-1"></i>Name</span>
+            <span class="sp-detail-value sp-name">@Model?.FullName</span>
+        </div>
+        <div class="sp-detail-row">
+            <span class="sp-detail-label"><i class="fas fa-envelope me-1"></i>Email</span>
+            <span class="sp-detail-value sp-email">@Model?.Email</span>
+        </div>
+        <div class="sp-detail-row">
+            <span class="sp-detail-label"><i class="fas fa-phone me-1"></i>Phone</span>
+            <span class="sp-detail-value">@(Model?.Phone ?? "—")</span>
+        </div>
+        <div class="sp-detail-row">
+            <span class="sp-detail-label"><i class="fas fa-circle-dot me-1"></i>Status</span>
+            <span class="sp-detail-value">
+                @{
+                    var badgeCls = Model?.Status?.ToLower() == "active"   ? "sp-badge-active" :
+                                   Model?.Status?.ToLower() == "inactive" ? "sp-badge-inactive" : "sp-badge-default";
+                }
+                <span class="sp-badge @badgeCls">@Model?.Status</span>
+            </span>
+        </div>
+        <div class="sp-detail-row">
+            <span class="sp-detail-label"><i class="fas fa-calendar me-1"></i>Join Date</span>
+            <span class="sp-detail-value">@Model?.JoinDate</span>
+        </div>
+        <div class="sp-detail-row">
+            <span class="sp-detail-label"><i class="fas fa-clock me-1"></i>Created</span>
+            <span class="sp-detail-value">@Model?.CreatedAt.ToString("MMM dd, yyyy HH:mm")</span>
+        </div>
+
+        <hr class="sp-divider" />
+
+        <div class="d-flex gap-2">
+            <a asp-action="Edit" asp-route-id="@Model?.StudentId" class="sp-btn sp-btn-edit sp-btn-lg flex-grow-1">
+                <i class="fas fa-pen"></i> Edit
+            </a>
+            <a asp-action="Index" class="sp-btn sp-btn-secondary sp-btn-lg">
+                <i class="fas fa-arrow-left"></i> Back
+            </a>
+        </div>
+    </div>
+</div>

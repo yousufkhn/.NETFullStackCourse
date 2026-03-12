@@ -42,7 +42,7 @@ namespace UniMartAPI.Services
                 return false;
             }
 
-            _context.Products.Remove(product);
+            product.IsActive = false; // this is soft delete, only falsing the isActive
 
             await _context.SaveChangesAsync();
             return true;
@@ -108,30 +108,65 @@ namespace UniMartAPI.Services
                     Category = p.Category.Name,
                     SellerName = p.User.FullName,
                     SellerPhone = p.User.PhoneNumber,
-                    CreatedAt = p.CreatedAt
+                    CreatedAt = p.CreatedAt,
+                    SellerId = p.UserId
                 }).ToListAsync();
 
             return (items, totalCount);
                       
         }
 
-        public async Task<Product?> GetByIdAsync(int id)
+        public async Task<ProductResponseDto?> GetByIdAsync(int id)
         {
-            return await _context.Products.FindAsync(id);
+            var productDto = await _context.Products
+                            .Include(p=>p.User)
+                            .Include(p=>p.Category)
+                            .Where(p=> p.ProductId == id && p.IsActive)
+                            .Select(p => new ProductResponseDto
+                            {
+                                Name = p.Name,
+                                Category = p.Category.Name,
+                                CreatedAt = p.CreatedAt,
+                                Description = p.Description,
+                                Price = p.Price,
+                                ProductId = p.ProductId,
+                                SellerName = p.User.FullName,
+                                SellerPhone = p.User.PhoneNumber,
+                                SellerId = p.UserId
+                            })
+        .FirstOrDefaultAsync();
+            return productDto;
         }
 
-        public async Task<bool> UpdateAsync(int id, Product product)
+        //public async Task<bool> UpdateAsync(int id, Product product)
+        //{
+        //    var existing = await _context.Products.FindAsync(id);
+
+        //    if (existing == null)
+        //        return false;
+
+        //    existing.Name = product.Name;
+        //    existing.Price = product.Price;
+
+        //    await _context.SaveChangesAsync();
+        //    return true;
+        //}
+
+        public async Task<List<ProductResponseDto>> GetMyProductsAsync(int userId)
         {
-            var existing = await _context.Products.FindAsync(id);
-
-            if (existing == null)
-                return false;
-
-            existing.Name = product.Name;
-            existing.Price = product.Price;
-
-            await _context.SaveChangesAsync();
-            return true;
+            var products = await _context.Products
+                            .Where(p => p.UserId == userId)
+                            .Include(p => p.Category)
+                            .Include(p => p.User)
+                            .Select(p => new ProductResponseDto
+                            {
+                                ProductId = p.ProductId,
+                                Name = p.Name,
+                                Description = p.Description,
+                                Price = p.Price,
+                                SellerName = p.User.FullName
+                            }).ToListAsync();
+            return products;
         }
     }
 }

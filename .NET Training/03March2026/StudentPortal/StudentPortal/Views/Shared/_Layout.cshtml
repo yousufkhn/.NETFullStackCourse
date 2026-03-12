@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Capgemini Top Students Selector</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/StudentPortal.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <!-- Animated background blobs -->
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+    <div class="bg-blob blob-3"></div>
+
+    <!-- Capgemini brand top banner -->
+    <div class="cap-top-banner">
+        <i class="fas fa-award me-2"></i>Capgemini &mdash; Top Students Selector &mdash; .NET Training &middot; Batch March 2026<i class="fas fa-award ms-2"></i>
+    </div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg sp-navbar">
+            <div class="container">
+                <!-- Capgemini Logo -->
+                <a class="navbar-brand sp-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/img/capgemini-logo.svg" alt="Capgemini" class="cap-logo" />
+                    <div class="sp-brand-sub">
+                        <span class="cap-title">Top Students</span>
+                        <span class="cap-subtitle">Selector Portal</span>
+                    </div>
+                </a>
+
+                <button class="navbar-toggler sp-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
+                        aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarMain">
+                    <ul class="navbar-nav mx-auto gap-1">
+                        <li class="nav-item">
+                            <a class="nav-link sp-nav-link" asp-area="" asp-controller="Home" asp-action="Index">
+                                <i class="fas fa-house me-1"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sp-nav-link" asp-area="" asp-controller="Students" asp-action="Index">
+                                <i class="fas fa-users me-1"></i>Candidates
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link sp-nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">
+                                <i class="fas fa-shield-halved me-1"></i>Privacy
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="sp-nav-actions">
+                        <a class="sp-btn-nav" asp-area="" asp-controller="Students" asp-action="Create">
+                            <i class="fas fa-user-plus me-1"></i>Register Candidate
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container sp-main-container">
+        <main role="main" class="pb-4">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="sp-footer">
+        <div class="container">
+            <div class="sp-footer-inner">
+                <div class="sp-footer-brand">
+                    <img src="~/img/capgemini-logo.svg" alt="Capgemini" />
+                </div>
+                <div class="sp-footer-copy">
+                    &copy; 2026 Capgemini &mdash; Top Students Selector &mdash;
+                    <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy Policy</a>
+                </div>
+                <div class="sp-footer-links">
+                    <a href="https://www.capgemini.com" target="_blank" title="Capgemini"><i class="fas fa-globe"></i></a>
+                    <a href="https://www.linkedin.com/company/capgemini" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        // Highlight active nav link
+        document.querySelectorAll('.sp-nav-link').forEach(link => {
+            const lPath = new URL(link.href).pathname;
+            if (lPath === '/' ? window.location.pathname === '/' :
+                window.location.pathname.startsWith(lPath)) {
+                link.classList.add('active');
+            }
+        });
+        document.body.classList.add('page-loaded');
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

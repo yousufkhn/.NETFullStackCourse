@@ -20,6 +20,12 @@ namespace UniMartAPI.Controllers
             _service = service;
         }
 
+        [NonAction]
+        public int GetUserId()
+        {
+            return int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+        }
+
         [HttpGet]
         public async Task<IActionResult> GetProducts(
             int page = 1,
@@ -51,7 +57,7 @@ namespace UniMartAPI.Controllers
         [HttpPost("add")]
         public async Task<IActionResult> CreateProduct(CreateProductDto dto)
         {
-            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var userId = GetUserId();
 
 
             //asp .net automatically reads json from request body,converts to prodct object, passes into method
@@ -61,6 +67,7 @@ namespace UniMartAPI.Controllers
             return CreatedAtAction(nameof(GetProducts), new { id = dto.Name }, dto);
         }
 
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetProductsById(int id)
         {
@@ -73,24 +80,60 @@ namespace UniMartAPI.Controllers
             return Ok(product);
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProduct(int id, Product updatedProduct)
-        {
-            var success = await _service.UpdateAsync(id, updatedProduct);
+        //[Authorize]
+        //[HttpPut("{id}")]
+        //public async Task<IActionResult> UpdateProduct(int id, Product updatedProduct)
+        //{
+        //    var userId = GetUserId();
 
-            if (!success) return NotFound();
+        //    var product = await _service.GetByIdAsync(id);
+
+        //    if(product == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    if(product.UserId != userId)
+        //    {
+        //        return Forbid(); // 403 return code
+        //    }
+
+        //    var success = await _service.UpdateAsync(id, updatedProduct);
+
+        //    return NoContent();
+        //}
+
+        [Authorize]
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            var userId = GetUserId();
+
+            var product = await _service.GetByIdAsync(id);
+
+            if(product == null)
+            {
+                return NotFound();
+            }
+
+            if(product.SellerId != userId)
+            {
+                return Forbid(); // 403
+            }
+            var success = await _service.DeleteAsync(id);
 
             return NoContent();
         }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteProduct(int id)
+        [Authorize]
+        [HttpGet("my")]
+        public async Task<IActionResult> GetMyProducts()
         {
-            var success = await _service.DeleteAsync(id);
+            var userId = GetUserId();
 
-            if (!success) return NotFound();
+            var products = await _service.GetMyProductsAsync(userId);
 
-            return NoContent();
+            return Ok(products);
         }
 
     }

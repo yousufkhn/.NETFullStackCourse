@@ -1,12 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BCrypt.Net;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 using UniMartAPI.Data;
 using UniMartAPI.DTOs;
 using UniMartAPI.Models;
-using BCrypt.Net;
-using System.IdentityModel.Tokens.Jwt;
-using Microsoft.IdentityModel.Tokens;
-using System.Security.Claims;
-using System.Text;
+using UniMartAPI.Services;
 
 
 namespace UniMartAPI.Controllers
@@ -18,19 +21,39 @@ namespace UniMartAPI.Controllers
     {
         private readonly UniMartDbContext _context;
 
+        private readonly IAuthService _service;
+
         //configuration to read jwt settings from appsettings.json
         private readonly IConfiguration _configuration;
 
-        public AuthController(UniMartDbContext context,IConfiguration configuration)
+        public AuthController(UniMartDbContext context,IConfiguration configuration,IAuthService service)
         {
             _context = context;
             _configuration = configuration;
+            _service = service;
+        }
+
+        [Authorize]
+        [HttpGet("me")]
+        public async Task<IActionResult> Me()
+        {
+
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)); // User comes from controller base
+
+            var profile = await _service.GetProfileAsync(userId);
+
+            if(profile == null)
+            {
+                return NotFound();
+            }
+            return Ok(profile);
+            
         }
 
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterDto dto)
         {
-            if (_context.Users.Any(u => u.Email == dto.Email))
+            if (await _context.Users.AnyAsync(u => u.Email == dto.Email))
             {
                 return BadRequest("User with this Email already Exists");
             }
@@ -50,9 +73,9 @@ namespace UniMartAPI.Controllers
         }
 
         [HttpPost("login")]
-        public IActionResult Login(LoginDto dto)
+        public async Task<IActionResult> Login(LoginDto dto)
         {
-            var user = _context.Users.SingleOrDefault(u => u.Email == dto.Email);
+            var user = await _context.Users.SingleOrDefaultAsync(u => u.Email == dto.Email);
 
             if (user == null || !BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash))
             {
@@ -61,7 +84,24 @@ namespace UniMartAPI.Controllers
 
             var token = GenerateJwtToken(user);
 
-            return Ok(new { token });
+            Response.Cookies.Append("access_token", token, new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = false, // false only for local HTTP dev
+                SameSite = SameSiteMode.Lax,
+                Expires = DateTime.UtcNow.AddHours(2)
+            });
+
+            return Ok(new { message = "Login successfully" });
+        }
+
+        [Authorize]
+        [HttpPost("logout")]
+        public IActionResult Logout()
+        {
+            Response.Cookies.Delete("access_token");
+
+            return Ok(new { message = "Logged out successfully" });
         }
 
         private string GenerateJwtToken(User user)

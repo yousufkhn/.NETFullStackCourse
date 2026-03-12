@@ -1,0 +1,172 @@
+﻿@model List<Student>
+
+@{
+    ViewData["Title"] = "Candidates";
+    var q = (ViewBag.Query as string) ?? "";
+}
+
+<div class="sp-card">
+    <!-- Capgemini selector page header -->
+    <div class="sp-page-header">
+        <div>
+            <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.25rem">
+                <div style="width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,#003875,#0070AD);display:grid;place-items:center;color:#fff;font-size:0.9rem;flex-shrink:0">
+                    <i class="fas fa-list-ol"></i>
+                </div>
+                <h1 class="sp-page-title" style="margin:0">Candidate Roster</h1>
+            </div>
+            <div class="sp-page-subtitle">Capgemini .NET Training &middot; Batch March 2026 &mdash; CRUD + Live Search</div>
+        </div>
+        <a asp-action="Create" class="sp-btn sp-btn-primary">
+            <i class="fas fa-user-plus"></i> Register Candidate
+        </a>
+    </div>
+
+    <hr class="sp-divider" />
+
+    <!-- Search -->
+    <div class="sp-search-wrap">
+        <div class="sp-search-wrap-inner">
+            <i class="fas fa-magnifying-glass sp-search-icon"></i>
+            <input id="q" class="sp-search- " placeholder="Search candidate by name or email..." value="@q" />
+        </div>
+        <button id="btnSearch" class="sp-btn sp-btn-primary" type="button">
+            <i class="fas fa-search"></i> Search
+        </button>
+    </div>
+
+    <div id="liveBox" class="sp-live-box"></div>
+
+    <!-- Table -->
+    <div class="sp-table-wrap">
+        <table class="sp-table">
+            <thead>
+                <tr>
+                    <th><i class="fas fa-hashtag me-1"></i>ID</th>
+                    <th><i class="fas fa-user me-1"></i>Candidate Name</th>
+                    <th><i class="fas fa-envelope me-1"></i>Email</th>
+                    <th><i class="fas fa-circle-dot me-1"></i>Status</th>
+                    <th style="width:160px">Actions</th>
+                </tr>
+            </thead>
+            <tbody id="tblBody">
+                @{
+                    int rank = 1;
+                }
+                @foreach (var s in Model)
+                {
+                    <tr>
+                        <td>
+                            @if (rank == 1)
+                            {
+                                <span class="sp-rank-gold"><i class="fas fa-trophy"></i>@s.StudentId</span>
+                            }
+                            else if (rank == 2)
+                            {
+                                <span class="sp-rank-silver"><i class="fas fa-medal"></i>@s.StudentId</span>
+                            }
+                            else if (rank == 3)
+                            {
+                                <span class="sp-rank-bronze"><i class="fas fa-medal"></i>@s.StudentId</span>
+                            }
+                            else
+                            {
+                                <span class="sp-id-badge">@s.StudentId</span>
+                            }
+                        </td>
+                        <td class="sp-name">@s.FullName</td>
+                        <td class="sp-email">@s.Email</td>
+                        <td>
+                            @{
+                                var badgeCls = s.Status?.ToLower() == "active" ? "sp-badge-active" :
+                                               s.Status?.ToLower() == "inactive" ? "sp-badge-inactive" : "sp-badge-default";
+                            }
+                            <span class="sp-badge @badgeCls">@s.Status</span>
+                        </td>
+                        <td>
+                            <div class="sp-actions">
+                                <a class="sp-btn sp-btn-edit" asp-action="Edit" asp-route-id="@s.StudentId">
+                                    <i class="fas fa-pen"></i> Edit
+                                </a>
+                                <a class="sp-btn sp-btn-delete" asp-action="Delete" asp-route-id="@s.StudentId">
+                                    <i class="fas fa-trash"></i> Delete
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    rank++;
+                }
+                @if (!Model.Any())
+                {
+                    <tr><td colspan="5"><div class="sp-empty"><i class="fas fa-users-slash"></i><p>No candidates found. Register the first one!</p></div></td></tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const qEl   = document.getElementById("q");
+        const box   = document.getElementById("liveBox");
+        const tbody = document.getElementById("tblBody");
+        const btn   = document.getElementById("btnSearch");
+        let t = null;
+
+        function badgeClass(status) {
+            if (!status) return "sp-badge-default";
+            const s = status.toLowerCase();
+            if (s === "active")   return "sp-badge-active";
+            if (s === "inactive") return "sp-badge-inactive";
+            return "sp-badge-default";
+        }
+
+        function rankCell(idx, id) {
+            if (idx === 0) return `<span class="sp-rank-gold"><i class="fas fa-trophy"></i>${id}</span>`;
+            if (idx === 1) return `<span class="sp-rank-silver"><i class="fas fa-medal"></i>${id}</span>`;
+            if (idx === 2) return `<span class="sp-rank-bronze"><i class="fas fa-medal"></i>${id}</span>`;
+            return `<span class="sp-id-badge">${id}</span>`;
+        }
+
+        function renderRows(items) {
+            if (!items || items.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="5"><div class="sp-empty"><i class="fas fa-users-slash"></i><p>No candidates found.</p></div></td></tr>`;
+                return;
+            }
+            tbody.innerHTML = items.map((s, i) => `
+                <tr>
+                    <td>${rankCell(i, s.studentId)}</td>
+                    <td class="sp-name">${s.fullName}</td>
+                    <td class="sp-email">${s.email}</td>
+                    <td><span class="sp-badge ${badgeClass(s.status)}">${s.status}</span></td>
+                    <td>
+                        <div class="sp-actions">
+                            <a class="sp-btn sp-btn-edit" href="/Students/Edit/${s.studentId}"><i class="fas fa-pen"></i> Edit</a>
+                            <a class="sp-btn sp-btn-delete" href="/Students/Delete/${s.studentId}"><i class="fas fa-trash"></i> Delete</a>
+                        </div>
+                    </td>
+                </tr>
+            `).join("");
+        }
+
+        // Snapshot the original server-rendered rows so we can restore them
+        const originalRows = tbody.innerHTML;
+
+        async function liveSearch() {
+            const q = qEl.value.trim();
+            if (q.length === 0) {
+                box.innerHTML = "";
+                tbody.innerHTML = originalRows;
+                return;
+            }
+            box.innerHTML = `<i class="fas fa-spinner fa-spin"></i> Searching Capgemini candidates...`;
+            const res  = await fetch(`/Students/Search?q=${encodeURIComponent(q)}`);
+            const data = await res.json();
+            box.innerHTML = `<i class="fas fa-check-circle" style="color:#0070AD"></i> ${data.length} candidate${data.length !== 1 ? 's' : ''} found`;
+            renderRows(data);
+        }
+
+        qEl.addEventListener("keyup", () => { clearTimeout(t); t = setTimeout(liveSearch, 250); });
+        btn.addEventListener("click", liveSearch);
+    </script>
+}

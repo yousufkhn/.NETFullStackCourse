@@ -1,0 +1,137 @@
+Let me scan everything first.   
+
+Read [](file:///d%3A/MyData/Capgemini/Training/.NET%20Training/Assignments/19Feb2026-ADO.NET%20Assignment/UniMartAPI/UniMartAPI/DTOs/RegisterDto.cs)
+
+Read [](file:///d%3A/MyData/Capgemini/Training/.NET%20Training/Assignments/19Feb2026-ADO.NET%20Assignment/UniMartAPI/UniMartAPI/DTOs/Product/CreateProductDto.cs)
+
+Read [](file:///d%3A/MyData/Capgemini/Training/.NET%20Training/Assignments/19Feb2026-ADO.NET%20Assignment/UniMartAPI/UniMartAPI/Services/ProductService.cs)
+
+Read [](file:///d%3A/MyData/Capgemini/Training/.NET%20Training/Assignments/19Feb2026-ADO.NET%20Assignment/UniMartAPI/UniMartAPI/Controllers/ProductsController.cs)
+
+Read [](file:///d%3A/MyData/Capgemini/Training/.NET%20Training/Assignments/19Feb2026-ADO.NET%20Assignment/UniMartAPI/UniMartAPI/Controllers/AuthController.cs)
+
+Read [](file:///d%3A/MyData/Capgemini/Training/.NET%20Training/Assignments/19Feb2026-ADO.NET%20Assignment/UniMartAPI/UniMartAPI/DTOs/User/UserProfileDto.cs)
+
+Searched for files matching `**/Middleware/**`, 1 match
+
+Read [](file:///d%3A/MyData/Capgemini/Training/.NET%20Training/Assignments/19Feb2026-ADO.NET%20Assignment/UniMartAPI/UniMartAPI/Middleware/ExceptionMiddleware.cs)
+
+Read [](file:///d%3A/MyData/Capgemini/Training/.NET%20Training/Assignments/19Feb2026-ADO.NET%20Assignment/UniMartAPI/UniMartAPI/Models/User.cs)
+
+Good, now I have a complete picture. Here are the findings — specific to your actual code, not generic suggestions:
+
+---
+
+## Critical Bugs (Fix These First)
+
+### 1. `DeleteProduct` has NO ownership check
+You have it in `UpdateProduct` but completely missed it in `DeleteProduct`:
+```csharp
+// ProductsController.cs — DeleteProduct
+var product = await _service.GetByIdAsync(id);
+if (product == null) return NotFound();
+
+// ← NO ownership check here
+// Any logged-in user can delete anyone else's product right now
+var success = await _service.DeleteAsync(id);
+```
+The fix is one line — add `if (product.UserId != userId) return Forbid();` before `DeleteAsync`.
+
+### 2. `ExceptionMiddleware` is completely empty
+You created the file but never implemented it:
+```csharp
+public class ExceptionMiddleware
+{
+    // nothing here
+}
+```
+This is completely unregistered and doing nothing. This was on your to-do list.
+
+### 3. Hard Delete instead of Soft Delete
+`DeleteAsync` does `_context.Products.Remove(product)` — permanently wipes the row. But your model already has `IsActive` specifically for this. Just set `product.IsActive = false` and save.
+
+---
+
+## Design Issues (Medium Priority)
+
+### 4. `CreateProductDto` has zero validation
+`RegisterDto` is well validated, but `CreateProductDto` has nothing:
+```csharp
+public class CreateProductDto
+{
+    public string Name { get; set; }       // no [Required], no length limit
+    public string Description { get; set; } // no length limit
+    public decimal Price { get; set; }     // no [Range] — negative price is accepted
+    public int CategoryId { get; set; }    // no validation
+}
+```
+
+### 5. `AuthController` directly uses `DbContext` — bypasses service layer
+`Register` and `Login` call `_context` directly in the controller. All DB logic should live in `AuthService`. Right now `AuthService` only has `GetProfileAsync` — Register and Login should move into it too.
+
+### 6. `Login` is not `async`
+```csharp
+public IActionResult Login(LoginDto dto)  // ← synchronous
+{
+    var user = _context.Users.SingleOrDefault(...); // ← blocking DB call
+```
+Should be `public async Task<IActionResult> Login` with `await _context.Users.SingleOrDefaultAsync(...)`.
+
+### 7. `Register` uses synchronous `.Any()`
+```csharp
+if (_context.Users.Any(u => u.Email == dto.Email)) // ← blocks the thread
+```
+Should be `await _context.Users.AnyAsync(...)`.
+
+### 8. `UpdateAsync` accepts raw `Product` model instead of a DTO
+```csharp
+public async Task<IActionResult> UpdateProduct(int id, Product updatedProduct)
+```
+You're exposing your domain model directly as input. Someone could send `UserId`, `CreatedAt`, `IsActive` and potentially overwrite them. Needs an `UpdateProductDto` with only the fields a user should be allowed to change (`Name`, `Description`, `Price`, `CategoryId`).
+
+### 9. `UpdateAsync` only updates `Name` and `Price`
+```csharp
+existing.Name = product.Name;
+existing.Price = product.Price;
+// Description and CategoryId are never updated
+```
+`Description` and `CategoryId` changes are silently ignored.
+
+### 10. `pageSize` has no upper bound
+```csharp
+int pageSize = 10
+```
+Someone can call `?pageSize=100000` and dump the entire database in one request. Add a cap: `if (pageSize > 50) pageSize = 50;` or return `BadRequest`.
+
+---
+
+## Minor Issues
+
+### 11. `UserProfileDto` has a `Role` field that's never set
+```csharp
+public string Role { get; set; }  // always null in responses
+```
+`User` model has no `Role` property, it's never added as a JWT claim, and `AuthService` never sets it. Either remove it or implement roles properly.
+
+### 12. `GetProductsById` returns the raw `Product` model
+```csharp
+return Ok(product); // returns UserId, CategoryId, raw FK values
+```
+All other endpoints return DTOs. This one should return `ProductResponseDto` with seller name and category name — for consistency.
+
+---
+
+## Suggested Order
+
+```
+1. Fix DeleteProduct ownership check    ← 2 min, critical security bug
+2. Implement ExceptionMiddleware        ← already started, just needs the body
+3. Soft Delete fix in DeleteAsync       ← 5 min
+4. Add validation to CreateProductDto  ← 15 min
+5. Create UpdateProductDto             ← 20 min, fix UpdateAsync too
+6. Make Login/Register async           ← 10 min
+7. Move Register/Login into AuthService ← 30 min, proper layering
+8. Fix GetProductsById to return DTO   ← 10 min
+9. Cap pageSize in controller          ← 5 min
+10. Fix or remove Role in UserProfileDto ← decide: implement or remove
+```

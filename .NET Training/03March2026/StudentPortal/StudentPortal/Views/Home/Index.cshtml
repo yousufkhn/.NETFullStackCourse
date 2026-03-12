@@ -1,0 +1,142 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- Hero -->
+<section class="sp-hero" style="padding-top:2.5rem;padding-bottom:1.5rem">
+    <div class="sp-hero-badge">
+        <i class="fas fa-award"></i>&nbsp; Capgemini &middot; .NET Training &middot; Batch March 2026
+    </div>
+    <h1 style="font-size:clamp(2rem,5vw,3.4rem)">
+        Top Students<br /><span>Selector Portal</span>
+    </h1>
+    <p style="max-width:580px">
+        Capgemini's merit-based talent recognition platform. Identify, rank and celebrate the highest-performing
+        trainees from the .NET Batch — shaping the future leaders of tomorrow.
+    </p>
+    <div class="sp-hero-actions">
+        <a asp-controller="Students" asp-action="Index" class="sp-btn sp-btn-primary sp-btn-lg">
+            <i class="fas fa-list-ol"></i>&nbsp; View Candidates
+        </a>
+        <a asp-controller="Students" asp-action="Create" class="sp-btn sp-btn-secondary sp-btn-lg"
+           style="background:rgba(255,255,255,0.9);color:#003875;border:1.5px solid rgba(0,56,117,0.2)">
+            <i class="fas fa-user-plus"></i>&nbsp; Register Candidate
+        </a>
+    </div>
+</section>
+
+<!-- Capgemini palette stripe -->
+<div style="height:4px;border-radius:2px;background:linear-gradient(90deg,#003875,#0070AD,#12ABDB,#4DD9F5);margin-bottom:1.75rem"></div>
+
+<!-- Stats -->
+<div class="row g-3 mb-4">
+    <div class="col-sm-6 col-lg-3">
+        <div class="stat-card" style="background:linear-gradient(135deg,#003875,#0070AD);animation-delay:.05s">
+            <div class="stat-icon"><i class="fas fa-users"></i></div>
+            <div>
+                <div class="stat-value" id="statTotal">&mdash;</div>
+                <div class="stat-label">Registered Candidates</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+        <div class="stat-card" style="background:linear-gradient(135deg,#0070AD,#12ABDB);animation-delay:.1s">
+            <div class="stat-icon"><i class="fas fa-medal"></i></div>
+            <div>
+                <div class="stat-value">Top 10%</div>
+                <div class="stat-label">Selected</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+        <div class="stat-card" style="background:linear-gradient(135deg,#1B8B4B,#34C77A);animation-delay:.15s">
+            <div class="stat-icon"><i class="fas fa-circle-check"></i></div>
+            <div>
+                <div class="stat-value">&mdash;</div>
+                <div class="stat-label">Active Trainees</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+        <div class="stat-card" style="background:linear-gradient(135deg,#B8860B,#F5C518);animation-delay:.2s">
+            <div class="stat-icon"><i class="fas fa-trophy"></i></div>
+            <div>
+                <div class="stat-value">2026</div>
+                <div class="stat-label">Batch Year</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- How the Selector Works -->
+<div class="sp-card mb-4" style="padding:1.75rem">
+    <div class="d-flex align-items-center gap-3 mb-3">
+        <div style="width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,#003875,#0070AD);display:grid;place-items:center;color:#fff;font-size:1.1rem;flex-shrink:0">
+            <i class="fas fa-circle-info"></i>
+        </div>
+        <div>
+            <h5 style="margin:0;font-weight:800;color:#003875">How the Selector Works</h5>
+            <div style="font-size:0.82rem;color:var(--text-muted)">Capgemini merit-based evaluation process</div>
+        </div>
+    </div>
+    <div class="row g-3">
+        <div class="col-md-4">
+            <div style="display:flex;gap:0.75rem;align-items:flex-start">
+                <div style="width:32px;height:32px;border-radius:10px;background:rgba(0,112,173,0.10);color:#0070AD;display:grid;place-items:center;font-size:0.9rem;flex-shrink:0;font-weight:800">1</div>
+                <div>
+                    <div style="font-weight:700;font-size:0.9rem;color:#003875">Register</div>
+                    <div style="font-size:0.82rem;color:var(--text-muted);line-height:1.5">Trainee information is registered in the portal by the training team.</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div style="display:flex;gap:0.75rem;align-items:flex-start">
+                <div style="width:32px;height:32px;border-radius:10px;background:rgba(0,112,173,0.10);color:#0070AD;display:grid;place-items:center;font-size:0.9rem;flex-shrink:0;font-weight:800">2</div>
+                <div>
+                    <div style="font-weight:700;font-size:0.9rem;color:#003875">Evaluate</div>
+                    <div style="font-size:0.82rem;color:var(--text-muted);line-height:1.5">Performance is assessed across assignments, assessments and participation.</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div style="display:flex;gap:0.75rem;align-items:flex-start">
+                <div style="width:32px;height:32px;border-radius:10px;background:rgba(0,112,173,0.10);color:#0070AD;display:grid;place-items:center;font-size:0.9rem;flex-shrink:0;font-weight:800">3</div>
+                <div>
+                    <div style="font-weight:700;font-size:0.9rem;color:#003875">Select</div>
+                    <div style="font-size:0.82rem;color:var(--text-muted);line-height:1.5">Top performers are shortlisted and recognised by the Capgemini leadership.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Feature cards -->
+<div class="row g-3">
+    <div class="col-md-4">
+        <div class="sp-feature-card" style="animation-delay:.1s">
+            <div class="sp-feature-icon" style="background:rgba(0,112,173,0.10);color:#0070AD">
+                <i class="fas fa-magnifying-glass"></i>
+            </div>
+            <h5>Live Candidate Search</h5>
+            <p>Instantly find any candidate by name or email with real-time AJAX results &mdash; zero page reload.</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="sp-feature-card" style="animation-delay:.18s">
+            <div class="sp-feature-icon" style="background:rgba(27,139,75,0.10);color:#1B8B4B">
+                <i class="fas fa-database"></i>
+            </div>
+            <h5>Full Candidate CRUD</h5>
+            <p>Register, update, and retire candidate records backed by SQL Server via Entity Framework Core.</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="sp-feature-card" style="animation-delay:.26s">
+            <div class="sp-feature-icon" style="background:rgba(184,134,11,0.10);color:#B8860B">
+                <i class="fas fa-trophy"></i>
+            </div>
+            <h5>Merit Recognition</h5>
+            <p>Transparent, fair ranking process that highlights the top performers for Capgemini project placement.</p>
+        </div>
+    </div>
+</div>

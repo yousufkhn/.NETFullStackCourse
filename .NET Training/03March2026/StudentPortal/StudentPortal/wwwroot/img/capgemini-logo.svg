@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 52" role="img" aria-label="Capgemini">
+  <!-- Capgemini geometric diamond mark -->
+  <defs>
+    <linearGradient id="capGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#12ABDB"/>
+      <stop offset="100%" style="stop-color:#0070AD"/>
+    </linearGradient>
+  </defs>
+  <!-- Diamond / rhombus mark -->
+  <polygon points="22,4 38,20 22,36 6,20" fill="url(#capGrad)"/>
+  <polygon points="22,10 32,20 22,30 12,20" fill="white" opacity="0.3"/>
+  <!-- Wordmark: Capgemini -->
+  <text x="50" y="34" font-family="Poppins, Helvetica Neue, Arial, sans-serif"
+        font-weight="800" font-size="28" letter-spacing="-0.5" fill="white">Capgemini</text>
+</svg>

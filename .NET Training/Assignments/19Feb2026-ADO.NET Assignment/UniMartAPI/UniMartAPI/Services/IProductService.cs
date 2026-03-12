@@ -13,9 +13,10 @@ namespace UniMartAPI.Services
             string? sortBy,
             string? sortOrder
             );
-        Task<Product?> GetByIdAsync(int id);
+        Task<ProductResponseDto?> GetByIdAsync(int id);
         Task<Product> CreateAsync(CreateProductDto dto, int userId);
-        Task<bool> UpdateAsync(int id, Product product);
+        //Task<bool> UpdateAsync(int id, Product product);
         Task<bool> DeleteAsync(int id);
+        Task<List<ProductResponseDto>> GetMyProductsAsync(int userId);
     }
 }
